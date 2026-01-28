@@ -1,0 +1,65 @@
+/* Print styles for Terms of Service page */
+
+@media print {
+  /* Hide print button and navigation */
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Remove sticky positioning from header */
+  header {
+    position: static !important;
+    box-shadow: none !important;
+  }
+
+  /* Remove padding from main to maximize print area */
+  main {
+    padding: 0 !important;
+  }
+
+  /* Optimize for paper */
+  .bg-gray-50 {
+    background: white !important;
+  }
+
+  /* Remove shadows for cleaner print */
+  .shadow-sm,
+  .shadow-lg {
+    box-shadow: none !important;
+  }
+
+  /* Ensure proper page breaks */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Optimize link colors for print */
+  a {
+    text-decoration: underline;
+    color: #000 !important;
+  }
+
+  /* Show URLs after links */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Don't show URLs for internal links */
+  a[href^="/"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+}

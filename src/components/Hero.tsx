@@ -5,19 +5,19 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center space-x-2 bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-medium mb-8">
           <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse"></span>
-          <span>Professional Nail Salon Management</span>
+          <span>Professional Business Management</span>
         </div>
 
         {/* Main Heading */}
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-          Empower Your <span className="text-gradient">Nail Salon</span>
+          Empower Your <span className="text-gradient">Business</span>
           <br />
           with Smart Technology
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
-          Celoria AI provides comprehensive intelligent management solutions for nail salons,
+          Celoria AI provides comprehensive intelligent management solutions for businesses,
           from appointment scheduling to customer management, let you focus on creating beauty.
         </p>
 

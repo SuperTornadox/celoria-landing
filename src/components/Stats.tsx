@@ -35,7 +35,7 @@ export default function Stats() {
             Trusted by Industry Leaders
           </h2>
           <p className="text-lg text-primary-100 max-w-2xl mx-auto">
-            QQ Nails chain has been using Celoria AI for years, powering efficient business operations
+            Celoria AI has been serving business chains for years, powering efficient operations
           </p>
         </div>
 

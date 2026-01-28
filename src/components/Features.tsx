@@ -47,7 +47,7 @@ export default function Features() {
             Core Features
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            An all-in-one management platform designed specifically for nail salons, covering all daily operations
+            An all-in-one management platform designed for businesses, covering all daily operations
           </p>
         </div>
 

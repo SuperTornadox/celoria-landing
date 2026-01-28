@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">Celoria AI</span>
             </div>
             <p className="text-gray-400 max-w-md">
-              Celoria AI is a smart nail salon management system by Celoria Corp,
+              Celoria AI is a smart business management system by Celoria Corp,
               dedicated to providing the most professional digital solutions for the nail industry.
             </p>
           </div>
@@ -34,7 +34,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>71 University Place</li>
               <li>New York, NY 10003</li>
-              <li>contact@celoria.ai</li>
+              <li>joey@celoria.ai</li>
             </ul>
           </div>
         </div>
@@ -43,8 +43,8 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p>&copy; 2025 Celoria Corp. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition">Terms of Service</a>
+            <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+            <a href="/terms" className="hover:text-white transition">Terms of Service</a>
           </div>
         </div>
       </div>

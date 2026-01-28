@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Celoria AI - Smart Nail Salon Management System',
-  description: 'Professional nail salon chain management system, serving 36 stores and 400K+ customers',
+  title: 'Celoria AI - Smart Business Management System',
+  description: 'Professional business management system, serving 36 stores and 400K+ customers',
 }
 
 export default function RootLayout({

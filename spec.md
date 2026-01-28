@@ -2,13 +2,13 @@
 
 ## 项目概述
 
-为 Celoria Corp 创建一个产品介绍网站，展示 QQ Nails 美甲沙龙管理系统。
+为 Celoria Corp 创建一个产品介绍网站，展示 Celoria 美甲沙龙管理系统。
 
 ## 公司信息
 
 - **公司名称**: Celoria Corp
 - **品牌名称**: Celoria AI
-- **产品名称**: QQ Nails
+- **产品名称**: Celoria
 - **行业**: 美甲沙龙连锁管理
 - **地址**: 71 University Place, New York, NY 10003
 
@@ -205,4 +205,4 @@ landingpage/
 - 响应式单页面网站
 - 支持中英文（可选）
 - 静态导出，可部署到任意静态托管服务
-- 展示 QQ Nails 产品的核心功能和规模
+- 展示 Celoria 产品的核心功能和规模
