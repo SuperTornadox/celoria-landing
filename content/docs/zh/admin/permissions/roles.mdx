@@ -1,0 +1,99 @@
+---
+title: 系统角色
+description: RBAC权限体系和系统预置角色
+---
+
+# 系统角色
+
+Celoria 采用基于资源-动作的 RBAC（基于角色的访问控制）权限系统。
+
+## 适用角色
+
+- 超级管理员 (Super Admin)
+- 管理员 (Admin) - 部分功能
+
+## 前置条件
+
+- 已登录管理员账号
+- 拥有 `permissions:manage` 权限
+
+## 权限体系概述
+
+```
+权限 = 资源:动作
+例如：appointments:create（预约:创建）
+```
+
+### 权限层级
+
+1. **系统角色** - 预定义的基础角色
+2. **职位权限** - 基于职位的权限模板
+3. **个人权限** - 针对个人的特殊授权
+4. **门店范围** - 可访问的门店范围
+
+## 预置角色
+
+| 角色 | 英文名 | 说明 |
+|------|--------|------|
+| 超级管理员 | Super Admin | 拥有所有权限 |
+| 管理员 | Admin | 管理后台完整访问 |
+| 经理 | Manager | 门店级管理权限 |
+| 员工 | Employee | 日常操作权限 |
+
+<Callout type="info">
+系统角色是基础模板，具体权限可通过职位进一步细化。
+</Callout>
+
+## 常见权限配置方案
+
+### 前台接待
+
+```
+权限：
+✓ appointments:view, create, update
+✓ guests:view, create, update
+✓ payments:process
+✓ services:view
+
+范围：所属门店
+```
+
+### 美甲技师
+
+```
+权限：
+✓ appointments:view
+✓ guests:view, notes
+✓ services:view
+✓ timeclock:use
+
+范围：所属门店
+```
+
+### 门店经理
+
+```
+权限：
+✓ appointments:* (所有预约权限)
+✓ guests:* (所有客户权限)
+✓ employees:view, schedule
+✓ payments:*
+✓ reports:sales
+✓ closeout:manage
+
+范围：所属门店
+```
+
+## 常见问题
+
+<FAQ>
+  <FAQItem question="权限修改后需要重新登录吗？">
+    权限修改即时生效，员工刷新页面后就会应用新权限。如遇权限不生效的情况，建议清除浏览器缓存后重新登录。
+  </FAQItem>
+</FAQ>
+
+## 相关文档
+
+- [职位管理](/docs/admin/permissions/job-titles) - 创建和配置职位
+- [权限详解](/docs/admin/permissions/permission-details) - 详细权限列表
+- [门店访问范围](/docs/admin/permissions/store-scope) - 配置数据范围

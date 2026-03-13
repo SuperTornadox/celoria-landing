@@ -39,32 +39,31 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-20 px-4 bg-white">
-      <div className="max-w-7xl mx-auto">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+    <section id="features" className="py-20">
+      <div className="section-shell">
+        <div className="text-center mb-14 reveal-up">
+          <p className="text-xs uppercase tracking-[0.28em] text-[var(--ink-500)] mb-3">Platform</p>
+          <h2 className="text-3xl md:text-5xl text-[var(--ink-900)] mb-4">
             Core Features
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-[var(--ink-700)] max-w-2xl mx-auto">
             An all-in-one management platform designed for businesses, covering all daily operations
           </p>
         </div>
 
-        {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 rounded-2xl bg-gray-50 hover:bg-primary-50 transition-colors group"
+              className="group rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 hover-lift"
             >
-              <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center text-primary-600 mb-4 group-hover:bg-primary-200 transition-colors">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--surface-soft)] text-[var(--accent-600)] transition-colors group-hover:bg-[#e6d4b7]">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl text-[var(--ink-900)] mb-2">
                 {feature.title}
               </h3>
-              <p className="text-gray-600">
+              <p className="text-[var(--ink-700)]">
                 {feature.description}
               </p>
             </div>

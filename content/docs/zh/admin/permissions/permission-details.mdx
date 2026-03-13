@@ -1,0 +1,65 @@
+---
+title: 权限详解
+description: 各模块权限的详细说明和建议配置
+---
+
+# 权限详解
+
+系统中各模块的详细权限列表和建议配置。
+
+## 预约相关权限
+
+| 权限 | 说明 | 建议角色 |
+|------|------|----------|
+| appointments:view | 查看预约列表和详情 | 所有员工 |
+| appointments:create | 创建新预约 | 前台、经理 |
+| appointments:update | 修改预约信息 | 前台、经理 |
+| appointments:delete | 取消/删除预约 | 经理 |
+| appointments:assign | 分配技师 | 前台、经理 |
+
+## 客户相关权限
+
+| 权限 | 说明 | 建议角色 |
+|------|------|----------|
+| guests:view | 查看客户信息 | 所有员工 |
+| guests:create | 添加新客户 | 前台、经理 |
+| guests:update | 修改客户信息 | 前台、经理 |
+| guests:delete | 删除客户 | 管理员 |
+| guests:notes | 查看/编辑客户备注 | 技师、经理 |
+
+## 员工相关权限
+
+| 权限 | 说明 | 建议角色 |
+|------|------|----------|
+| employees:view | 查看员工列表 | 经理、管理员 |
+| employees:create | 添加新员工 | 管理员 |
+| employees:update | 修改员工信息 | 经理、管理员 |
+| employees:schedule | 管理员工排班 | 经理 |
+
+## 财务相关权限
+
+| 权限 | 说明 | 建议角色 |
+|------|------|----------|
+| payments:process | 处理支付 | 前台、经理 |
+| payments:refund | 处理退款 | 经理 |
+| reports:sales | 查看销售报表 | 经理、管理员 |
+| reports:financial | 查看财务报表 | 管理员 |
+
+## 权限检查示例
+
+系统会在以下场景检查权限：
+
+### 页面访问
+- 没有 `reports:view` 权限的用户无法进入报表页面
+
+### 功能按钮
+- 没有 `appointments:create` 权限的用户看不到「新建预约」按钮
+
+### 数据查看
+- 门店范围限制的用户只能看到自己门店的数据
+
+## 相关文档
+
+- [系统角色](/docs/admin/permissions/roles) - 预置角色说明
+- [职位管理](/docs/admin/permissions/job-titles) - 配置职位权限
+- [门店访问范围](/docs/admin/permissions/store-scope) - 数据范围控制
