@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
+import { useTranslations } from 'next-intl';
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -9,6 +10,7 @@ const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const PHONE_REGEX = /^[+]?[\d\s()-]{7,20}$/;
 
 export default function Contact() {
+  const t = useTranslations('Contact');
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
@@ -18,9 +20,9 @@ export default function Contact() {
 
   function validate(): boolean {
     const errors: Record<string, string> = {};
-    if (!name.trim()) errors.name = 'Name is required';
-    if (!EMAIL_REGEX.test(email)) errors.email = 'Please enter a valid email';
-    if (!PHONE_REGEX.test(phone)) errors.phone = 'Please enter a valid phone number';
+    if (!name.trim()) errors.name = t('nameRequired');
+    if (!EMAIL_REGEX.test(email)) errors.email = t('emailInvalid');
+    if (!PHONE_REGEX.test(phone)) errors.phone = t('phoneInvalid');
     setFieldErrors(errors);
     return Object.keys(errors).length === 0;
   }
@@ -54,13 +56,12 @@ export default function Contact() {
       <div className="section-shell">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-xs uppercase tracking-[0.28em] text-[var(--ink-500)] mb-3">Contact</p>
+            <p className="text-xs uppercase tracking-[0.28em] text-[var(--ink-500)] mb-3">{t('kicker')}</p>
             <h2 className="text-3xl md:text-5xl text-[var(--ink-900)] mb-6">
-              Contact Us
+              {t('title')}
             </h2>
             <p className="text-lg text-[var(--ink-700)] mb-8">
-              Want to learn more about Celoria AI? Our team is ready to answer your questions
-              and arrange a product demo.
+              {t('subtitle')}
             </p>
 
             <div className="space-y-6">
@@ -72,7 +73,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[var(--ink-900)]">Address</h3>
+                  <h3 className="font-semibold text-[var(--ink-900)]">{t('addressLabel')}</h3>
                   <p className="text-[var(--ink-700)]">71 University Place<br />New York, NY 10003</p>
                 </div>
               </div>
@@ -84,8 +85,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[var(--ink-900)]">Company</h3>
-                  <p className="text-[var(--ink-700)]">Celoria Corp</p>
+                  <h3 className="font-semibold text-[var(--ink-900)]">{t('companyLabel')}</h3>
+                  <p className="text-[var(--ink-700)]">{t('companyValue')}</p>
                 </div>
               </div>
 
@@ -96,8 +97,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[var(--ink-900)]">Email</h3>
-                  <p className="text-[var(--ink-700)]">contact@celoria.ai</p>
+                  <h3 className="font-semibold text-[var(--ink-900)]">{t('emailLabel')}</h3>
+                  <p className="text-[var(--ink-700)]">{t('emailValue')}</p>
                 </div>
               </div>
             </div>
@@ -111,43 +112,43 @@ export default function Contact() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-2xl text-[var(--ink-900)] mb-2">Thank You!</h3>
+                <h3 className="text-2xl text-[var(--ink-900)] mb-2">{t('successTitle')}</h3>
                 <p className="text-[var(--ink-700)]">
-                  We&apos;ve received your request and will be in touch within 1 business day.
+                  {t('successMessage')}
                 </p>
               </div>
             ) : (
               <>
-                <h3 className="text-2xl text-[var(--ink-900)] mb-6">Book a Demo</h3>
+                <h3 className="text-2xl text-[var(--ink-900)] mb-6">{t('formTitle')}</h3>
                 <form className="space-y-4" onSubmit={handleSubmit}>
                   <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">Name</label>
-                    <input type="text" className={inputCls} placeholder="Enter your name" value={name} onChange={e => setName(e.target.value)} />
+                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('nameLabel')}</label>
+                    <input type="text" className={inputCls} placeholder={t('namePlaceholder')} value={name} onChange={e => setName(e.target.value)} />
                     {fieldErrors.name && <p className={errorCls}>{fieldErrors.name}</p>}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">Phone</label>
-                    <input type="tel" className={inputCls} placeholder="Enter your phone number" value={phone} onChange={e => setPhone(e.target.value)} />
+                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('phoneLabel')}</label>
+                    <input type="tel" className={inputCls} placeholder={t('phonePlaceholder')} value={phone} onChange={e => setPhone(e.target.value)} />
                     {fieldErrors.phone && <p className={errorCls}>{fieldErrors.phone}</p>}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">Email</label>
-                    <input type="email" className={inputCls} placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)} />
+                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('emailFieldLabel')}</label>
+                    <input type="email" className={inputCls} placeholder={t('emailPlaceholder')} value={email} onChange={e => setEmail(e.target.value)} />
                     {fieldErrors.email && <p className={errorCls}>{fieldErrors.email}</p>}
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">Message</label>
-                    <textarea rows={4} className={`${inputCls} resize-none`} placeholder="Briefly describe your needs" value={message} onChange={e => setMessage(e.target.value)} />
+                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('messageLabel')}</label>
+                    <textarea rows={4} className={`${inputCls} resize-none`} placeholder={t('messagePlaceholder')} value={message} onChange={e => setMessage(e.target.value)} />
                   </div>
                   {status === 'error' && (
-                    <p className="text-red-500 text-sm">Something went wrong. Please try again.</p>
+                    <p className="text-red-500 text-sm">{t('submitError')}</p>
                   )}
                   <button
                     type="submit"
                     disabled={status === 'submitting'}
                     className="w-full bg-[var(--accent-500)] text-white py-3 rounded-lg font-semibold hover:bg-[var(--accent-600)] transition disabled:opacity-60 disabled:cursor-not-allowed"
                   >
-                    {status === 'submitting' ? 'Submitting...' : 'Submit Request'}
+                    {status === 'submitting' ? t('submitting') : t('submitButton')}
                   </button>
                 </form>
               </>
