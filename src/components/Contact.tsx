@@ -1,55 +1,9 @@
-'use client';
-
-import { useState, type FormEvent } from 'react';
 import { useTranslations } from 'next-intl';
 
-type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const PHONE_REGEX = /^[+]?[\d\s()-]{7,20}$/;
+const CALENDLY_URL = 'https://calendly.com/xuchenhe1230/celoria-demo';
 
 export default function Contact() {
   const t = useTranslations('Contact');
-  const [name, setName] = useState('');
-  const [phone, setPhone] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [status, setStatus] = useState<FormStatus>('idle');
-  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
-
-  function validate(): boolean {
-    const errors: Record<string, string> = {};
-    if (!name.trim()) errors.name = t('nameRequired');
-    if (!EMAIL_REGEX.test(email)) errors.email = t('emailInvalid');
-    if (!PHONE_REGEX.test(phone)) errors.phone = t('phoneInvalid');
-    setFieldErrors(errors);
-    return Object.keys(errors).length === 0;
-  }
-
-  async function handleSubmit(e: FormEvent) {
-    e.preventDefault();
-    if (!validate()) return;
-
-    setStatus('submitting');
-    try {
-      const res = await fetch(`${API_URL}/api/demo-request`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.trim(), email: email.trim(), phone: phone.trim(), message: message.trim() }),
-      });
-      if (!res.ok) {
-        const data = await res.json().catch(() => null);
-        throw new Error(data?.error || data?.errors?.join(', ') || 'Request failed');
-      }
-      setStatus('success');
-    } catch {
-      setStatus('error');
-    }
-  }
-
-  const inputCls = 'w-full px-4 py-3 rounded-lg border border-[var(--line)] bg-white focus:ring-2 focus:ring-[var(--accent-300)] focus:border-[var(--accent-500)] outline-none transition';
-  const errorCls = 'text-red-500 text-xs mt-1';
 
   return (
     <section id="contact" className="py-20">
@@ -104,55 +58,26 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="glass-panel rounded-2xl p-8 shadow-[0_30px_60px_-44px_rgba(31,27,22,0.9)]">
-            {status === 'success' ? (
-              <div className="text-center py-8">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl text-[var(--ink-900)] mb-2">{t('successTitle')}</h3>
-                <p className="text-[var(--ink-700)]">
-                  {t('successMessage')}
-                </p>
+          <div className="glass-panel rounded-2xl p-8 shadow-[0_30px_60px_-44px_rgba(31,27,22,0.9)] text-center">
+            <div className="py-8">
+              <div className="w-16 h-16 bg-[var(--surface-soft)] rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-[var(--accent-500)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
               </div>
-            ) : (
-              <>
-                <h3 className="text-2xl text-[var(--ink-900)] mb-6">{t('formTitle')}</h3>
-                <form className="space-y-4" onSubmit={handleSubmit}>
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('nameLabel')}</label>
-                    <input type="text" className={inputCls} placeholder={t('namePlaceholder')} value={name} onChange={e => setName(e.target.value)} />
-                    {fieldErrors.name && <p className={errorCls}>{fieldErrors.name}</p>}
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('phoneLabel')}</label>
-                    <input type="tel" className={inputCls} placeholder={t('phonePlaceholder')} value={phone} onChange={e => setPhone(e.target.value)} />
-                    {fieldErrors.phone && <p className={errorCls}>{fieldErrors.phone}</p>}
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('emailFieldLabel')}</label>
-                    <input type="email" className={inputCls} placeholder={t('emailPlaceholder')} value={email} onChange={e => setEmail(e.target.value)} />
-                    {fieldErrors.email && <p className={errorCls}>{fieldErrors.email}</p>}
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-[var(--ink-700)] mb-1">{t('messageLabel')}</label>
-                    <textarea rows={4} className={`${inputCls} resize-none`} placeholder={t('messagePlaceholder')} value={message} onChange={e => setMessage(e.target.value)} />
-                  </div>
-                  {status === 'error' && (
-                    <p className="text-red-500 text-sm">{t('submitError')}</p>
-                  )}
-                  <button
-                    type="submit"
-                    disabled={status === 'submitting'}
-                    className="w-full bg-[var(--accent-500)] text-white py-3 rounded-lg font-semibold hover:bg-[var(--accent-600)] transition disabled:opacity-60 disabled:cursor-not-allowed"
-                  >
-                    {status === 'submitting' ? t('submitting') : t('submitButton')}
-                  </button>
-                </form>
-              </>
-            )}
+              <h3 className="text-2xl text-[var(--ink-900)] mb-3">{t('formTitle')}</h3>
+              <p className="text-[var(--ink-700)] mb-8">
+                {t('subtitle')}
+              </p>
+              <a
+                href={CALENDLY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full bg-[var(--accent-500)] text-white py-3 rounded-lg font-semibold hover:bg-[var(--accent-600)] transition"
+              >
+                {t('formTitle')}
+              </a>
+            </div>
           </div>
         </div>
       </div>

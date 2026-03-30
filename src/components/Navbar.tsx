@@ -64,7 +64,9 @@ export default function Navbar() {
               {switchLabel}
             </a>
             <a
-              href="#contact"
+              href="https://calendly.com/xuchenhe1230/celoria-demo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg px-5 py-2 font-semibold text-white bg-[var(--accent-500)] hover:bg-[var(--accent-600)] transition"
             >
               {t('bookDemo')}
@@ -103,7 +105,9 @@ export default function Navbar() {
               {switchLabel}
             </a>
             <a
-              href="#contact"
+              href="https://calendly.com/xuchenhe1230/celoria-demo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block px-5 py-2 rounded-lg text-center font-semibold text-white bg-[var(--accent-500)] hover:bg-[var(--accent-600)]"
             >
               {t('bookDemo')}
