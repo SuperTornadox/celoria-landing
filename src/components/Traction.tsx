@@ -22,9 +22,9 @@ export default function Traction() {
   return (
     <section id="traction" className="py-20">
       <div className="section-shell">
-        <div className="rounded-3xl border border-[var(--line)] bg-[linear-gradient(135deg,#241f19,#3a2d1e_55%,#533b1f)] px-6 py-14 md:px-12">
+        <div className="rounded-3xl border border-[rgba(168,134,80,0.15)] bg-[#2D2D2D] px-6 py-14 md:px-12">
           <div className="text-center mb-14 reveal-up">
-            <p className="text-xs uppercase tracking-[0.28em] text-[#d9c4a1] mb-3">{t('kicker')}</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#d9c4a1] mb-3">{t('kicker')}</p>
             <h2 className="text-3xl md:text-5xl text-[#fff8ec] mb-4">{t('title')}</h2>
           </div>
 

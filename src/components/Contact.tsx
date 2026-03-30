@@ -56,7 +56,7 @@ export default function Contact() {
       <div className="section-shell">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-xs uppercase tracking-[0.28em] text-[var(--ink-500)] mb-3">{t('kicker')}</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-[var(--ink-500)] mb-3">{t('kicker')}</p>
             <h2 className="text-3xl md:text-5xl text-[var(--ink-900)] mb-6">
               {t('title')}
             </h2>

@@ -18,6 +18,7 @@ export default function Navbar() {
     { href: '#competitive', label: t('whyCeloria') },
     { href: '#team', label: t('team') },
     { href: '#contact', label: t('contact') },
+    { href: '#investors', label: locale === 'zh' ? '投资人' : 'Investors' },
   ]
 
   const otherLocale = locale === 'en' ? 'zh' : 'en'
@@ -34,14 +35,18 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[var(--line)] bg-[rgba(248,244,236,0.82)] backdrop-blur-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[var(--line)] bg-[rgba(245,241,237,0.82)] backdrop-blur-md">
       <div className="section-shell">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-[linear-gradient(145deg,#af7f35,#e0bf8f)] shadow-[0_10px_30px_-16px_rgba(31,27,22,0.95)]">
-              <span className="text-white font-bold text-xl">C</span>
-            </div>
-            <span className="text-xl font-semibold text-[var(--ink-900)]">Celoria</span>
+          <div className="flex items-center space-x-2.5">
+            <img
+              src="/brand/celoria-symbol.png"
+              alt="Celoria"
+              className="w-8 h-8"
+            />
+            <span className="text-xl font-semibold text-[var(--accent-500)]" style={{ fontFamily: 'var(--font-heading), sans-serif' }}>
+              celoria
+            </span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">

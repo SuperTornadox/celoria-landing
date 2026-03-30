@@ -11,9 +11,9 @@ import Traction from '@/components/Traction'
 import Competitive from '@/components/Competitive'
 import BusinessModel from '@/components/BusinessModel'
 import Moats from '@/components/Moats'
-import Team from '@/components/Team'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import InvestorSection from '@/components/InvestorSection'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -27,17 +27,20 @@ export default function Home({ params }: Props) {
     <main className="min-h-screen">
       <Navbar />
       <Hero />
-      <Problem />
-      <Insight />
+      {/* Customer-first: what it does, proof it works, how much */}
       <Solution />
-      <WhyNow />
+      <Problem />
       <AIVision />
       <Traction />
       <Competitive />
-      <BusinessModel />
-      <Moats />
-      <Team />
       <Contact />
+      {/* Investor deep-dive: collapsible section */}
+      <InvestorSection>
+        <Insight />
+        <WhyNow />
+        <BusinessModel />
+        <Moats />
+      </InvestorSection>
       <Footer />
     </main>
   )

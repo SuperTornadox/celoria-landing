@@ -15,7 +15,7 @@ export default function BusinessModel() {
     <section id="business-model" className="py-20">
       <div className="section-shell">
         <div className="text-center mb-14 reveal-up">
-          <p className="text-xs uppercase tracking-[0.28em] text-[var(--ink-500)] mb-3">{t('kicker')}</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-[var(--ink-500)] mb-3">{t('kicker')}</p>
           <h2 className="text-3xl md:text-5xl text-[var(--ink-900)]">{t('title')}</h2>
         </div>
 
