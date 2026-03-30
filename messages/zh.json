@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Celoria - 美甲连锁 AI 管理系统",
-    "description": "在手机上管理所有门店。AI 自动处理对账、营销和员工协调——开新店不用多请店长。"
+    "description": "AI 接管对账、报表、营销这些杂事——让你的店长专注做好服务。"
   },
   "Navbar": {
     "solution": "解决方案",
@@ -14,10 +14,10 @@
   },
   "Hero": {
     "badge": "专为美甲连锁打造",
-    "titleLine1": "你的下一家新店",
-    "titleLine2": "不需要",
-    "titleHighlight": "店长。",
-    "description": "在手机上管理所有门店。AI 自动处理对账、员工协调和营销——开新店不用再多请店长。",
+    "titleLine1": "你的店长",
+    "titleLine2": "应该在服务客人，",
+    "titleHighlight": "不是在做表格。",
+    "description": "AI 接管对账、报表和营销——让你的店长专注服务，让最好的门店标准复制到每一家店。",
     "ctaDemo": "预约演示",
     "ctaProduct": "了解工作原理",
     "glanceTitle": "平台概览",
@@ -33,16 +33,16 @@
     "title": "管理连锁沙龙卡在三件事上，现有工具全部失败。",
     "card1Title": "员工用不了软件",
     "card1Desc": "美国美甲行业 79% 是移民从业者（UCLA Labor Center），教育水平普遍有限。英文界面看不懂，复杂 Dashboard 更不会用——天天打电话问怎么操作。现有工具没有为这个劳动力群体设计。",
-    "card2Title": "GM 只出报表，没有洞察",
-    "card2Desc": "$120K/年的 GM 只会整理数据，不懂业务。老板还得自己做分析、自己出培训材料——GM 本质上是一个昂贵的信息翻译器。",
+    "card2Title": "店长被杂事淹没",
+    "card2Desc": "你最得力的人每天花好几个小时在对账、排班、做报表上，而不是在服务客人和带新人。开的店越多，问题越严重。",
     "card3Title": "SOP 跨店复制失败",
     "card3Desc": "最好的店和最差的店效率差距巨大。SOP 全靠记忆，新店一开就走样。运营知识锁在老板脑子里。",
-    "callout": "问题不在工具不好用，而是传统工具在管理者和员工之间塞了一个昂贵的中间层。我们消除这个中间层——让有业务判断力的管理者，通过 AI 直接高效管理每一家店。"
+    "callout": "问题不在你的人不行——而是他们被杂事淹没了。Celoria 自动化这些苦活，让你的店长回归本职：把店管好。"
   },
   "Solution": {
     "kicker": "解决方案",
     "title": "两层产品，各解决不同的问题。",
-    "subtitle": "员工不需要学软件。老板不需要雇 GM。",
+    "subtitle": "员工不需要学软件。店长不需要做表格。",
     "staffLabel": "员工端",
     "staffTitle": "数字店长",
     "staffDesc": "员工不需要学软件。系统通过 Mobile App 推送任务：\"该做什么 + 什么时候做\"。",
@@ -52,12 +52,12 @@
     "staffCallout": "预约、排班、结账等操作仍用 GUI——简单的事保持简单。",
     "ownerLabel": "老板端",
     "ownerTitle": "AI Agent 套件",
-    "ownerDesc": "老板不需要雇 GM。AI Agent 直接做这些工作。",
+    "ownerDesc": "AI 处理后台杂事，让你的店长专注客人和员工。",
     "ownerItem1": "数据 → Insights + 可执行建议",
     "ownerItem2": "财务对账 → 自动执行，只报异常",
     "ownerItem3": "员工培训 → 发现问题自动生成材料",
     "ownerItem4": "精准营销 → 基于预约+客户数据投放",
-    "ownerCallout": "老板在手机上几下点击，就能管 20 家店。"
+    "ownerCallout": "店长留在现场服务。你在手机上看到一切。"
   },
   "AIVision": {
     "kicker": "AI 能帮你做什么",
@@ -216,7 +216,7 @@
   "Contact": {
     "kicker": "联系我们",
     "title": "联系我们",
-    "subtitle": "想了解 AI Agent 如何替代你的 GM？我们的团队将为你展示个性化演示。",
+    "subtitle": "看看 AI 怎么接管杂事、解放你的团队。我们为你做一次个性化演示。",
     "addressLabel": "地址",
     "address": "16 Washington Place\nNew York, NY 10003",
     "companyLabel": "公司",
@@ -242,7 +242,7 @@
     "successMessage": "我们已收到您的请求，将在 1 个工作日内与您联系。"
   },
   "Footer": {
-    "tagline": "美甲连锁 AI 管理系统。在手机上管理所有门店。",
+    "tagline": "美甲连锁 AI 管理系统。少做杂事，多做服务。",
     "quickLinks": "快速链接",
     "solution": "解决方案",
     "aiVision": "Agent 架构",
