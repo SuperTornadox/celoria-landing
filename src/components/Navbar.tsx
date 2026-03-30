@@ -40,9 +40,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2.5">
             <img
-              src="/brand/celoria-symbol.png"
+              src="/brand/celoria-icon-rounded.png"
               alt="Celoria"
-              className="w-8 h-8"
+              className="w-8 h-8 rounded-lg"
             />
             <span className="text-xl font-semibold text-[var(--accent-500)]" style={{ fontFamily: 'var(--font-heading), sans-serif' }}>
               celoria

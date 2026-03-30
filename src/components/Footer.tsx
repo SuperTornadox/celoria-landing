@@ -13,9 +13,9 @@ export default function Footer() {
           <div className="col-span-2">
             <div className="flex items-center space-x-2.5 mb-4">
               <img
-                src="/brand/celoria-symbol.png"
+                src="/brand/celoria-icon-rounded.png"
                 alt="Celoria"
-                className="w-8 h-8 brightness-110"
+                className="w-8 h-8 rounded-lg brightness-110"
               />
               <span className="text-xl font-semibold text-[#E8D7C3]" style={{ fontFamily: 'var(--font-heading), sans-serif' }}>
                 celoria
