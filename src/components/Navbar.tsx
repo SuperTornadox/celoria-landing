@@ -16,9 +16,7 @@ export default function Navbar() {
     { href: '#ai-vision', label: t('aiVision') },
     { href: '#traction', label: t('traction') },
     { href: '#competitive', label: t('whyCeloria') },
-    { href: '#team', label: t('team') },
     { href: '#contact', label: t('contact') },
-    { href: '#investors', label: locale === 'zh' ? '投资人' : 'Investors' },
   ]
 
   const otherLocale = locale === 'en' ? 'zh' : 'en'
