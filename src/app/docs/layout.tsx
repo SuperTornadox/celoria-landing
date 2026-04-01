@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Sidebar, SearchDialog } from '@/components/docs'
+import HelpChatbot from './HelpChatbot'
 
 export default function DocsLayout({
   children,
@@ -100,6 +101,7 @@ export default function DocsLayout({
       </div>
 
       <SearchDialog isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      <HelpChatbot />
     </div>
   )
 }
