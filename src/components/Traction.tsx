@@ -7,7 +7,6 @@ export default function Traction() {
 
   const stats = [
     { value: t('locationsValue'), label: t('locationsLabel'), context: t('locationsContext') },
-    { value: t('transactionsValue'), label: t('transactionsLabel'), context: t('transactionsContext') },
     { value: t('appointmentsValue'), label: t('appointmentsLabel'), context: t('appointmentsContext') },
     { value: t('staffValue'), label: t('staffLabel'), context: t('staffContext') },
   ]
@@ -28,7 +27,7 @@ export default function Traction() {
             <h2 className="text-3xl md:text-5xl text-[#fff8ec] mb-4">{t('title')}</h2>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center p-6 rounded-2xl border border-[rgba(255,235,200,0.2)] bg-[rgba(255,248,236,0.08)] backdrop-blur-sm hover-lift">
                 <div className="text-4xl md:text-5xl font-semibold text-[#fff8ec] mb-1">{stat.value}</div>

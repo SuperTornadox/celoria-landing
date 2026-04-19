@@ -7,7 +7,6 @@ export default function Hero() {
 
   const glanceItems = [
     { label: t('glanceLocations'), value: '35', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
-    { label: t('glanceTransactions'), value: '$98K+', icon: 'M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z' },
     { label: t('glanceDailyClose'), value: t('glanceDailyCloseValue'), icon: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z' },
     { label: t('glanceAI'), value: t('glanceAIValue'), icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
   ]
