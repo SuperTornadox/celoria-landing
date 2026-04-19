@@ -8,6 +8,7 @@ export default function Competitive() {
   const rows = [
     {
       name: t('zenotiName'),
+      verticals: t('zenotiVerticals'),
       legacy: t('zenotiLegacy'),
       payment: t('zenotiPayment'),
       multilingual: t('zenotiMultilingual'),
@@ -19,6 +20,7 @@ export default function Competitive() {
     },
     {
       name: t('vagaroName'),
+      verticals: t('vagaroVerticals'),
       legacy: t('vagaroLegacy'),
       payment: t('vagaroPayment'),
       multilingual: t('vagaroMultilingual'),
@@ -30,6 +32,7 @@ export default function Competitive() {
     },
     {
       name: t('boulevardName'),
+      verticals: t('boulevardVerticals'),
       legacy: t('boulevardLegacy'),
       payment: t('boulevardPayment'),
       multilingual: t('boulevardMultilingual'),
@@ -41,6 +44,7 @@ export default function Competitive() {
     },
     {
       name: t('freshaName'),
+      verticals: t('freshaVerticals'),
       legacy: t('freshaLegacy'),
       payment: t('freshaPayment'),
       multilingual: t('freshaMultilingual'),
@@ -52,6 +56,7 @@ export default function Competitive() {
     },
     {
       name: t('celoriaName'),
+      verticals: t('celoriaVerticals'),
       legacy: t('celoriaLegacy'),
       payment: t('celoriaPayment'),
       multilingual: t('celoriaMultilingual'),
@@ -72,10 +77,11 @@ export default function Competitive() {
         </div>
 
         <div className="overflow-x-auto max-w-6xl mx-auto -mx-4 px-4 sm:mx-auto sm:px-0">
-          <table className="w-full text-sm min-w-[700px]">
+          <table className="w-full text-sm min-w-[820px]">
             <thead>
               <tr className="border-b-2 border-[var(--line)]">
                 <th className="text-left py-3 px-3 text-[var(--ink-500)] font-semibold w-[120px]">{t('colCompany')}</th>
+                <th className="text-left py-3 px-3 text-[var(--ink-500)] font-semibold w-[140px]">{t('colVerticals')}</th>
                 <th className="text-left py-3 px-3 text-[var(--ink-500)] font-semibold">{t('colLegacy')}</th>
                 <th className="text-center py-3 px-3 text-[var(--ink-500)] font-semibold w-[140px]">{t('colPayment')}</th>
                 <th className="text-left py-3 px-3 text-[var(--ink-500)] font-semibold">{t('colMultilingual')}</th>
@@ -90,6 +96,9 @@ export default function Competitive() {
                 >
                   <td className={`py-4 px-3 font-semibold ${row.highlight ? 'text-[var(--accent-600)]' : 'text-[var(--ink-900)]'}`}>
                     {row.name}
+                  </td>
+                  <td className="py-4 px-3 text-xs text-[var(--ink-700)]">
+                    {row.verticals}
                   </td>
                   <td className="py-4 px-3 text-xs" style={{ color: row.legacyColor }}>
                     {row.legacy}

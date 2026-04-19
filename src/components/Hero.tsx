@@ -48,6 +48,15 @@ export default function Hero() {
                 {t('ctaProduct')}
               </a>
             </div>
+
+            <div className="mt-10">
+              <p className="text-xs uppercase tracking-[0.2em] text-[var(--ink-500)] mb-3">
+                {t('verticalsLabel')}
+              </p>
+              <p className="text-sm md:text-base text-[var(--ink-700)] font-medium">
+                {t('verticals')}
+              </p>
+            </div>
           </div>
 
           <div className="lg:col-span-5">

@@ -2,8 +2,10 @@ import { use } from 'react'
 import { setRequestLocale } from 'next-intl/server'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
+import RiskReversal from '@/components/RiskReversal'
 import Problem from '@/components/Problem'
 import Solution from '@/components/Solution'
+import SalonFeatures from '@/components/SalonFeatures'
 import AIVision from '@/components/AIVision'
 import Traction from '@/components/Traction'
 import Competitive from '@/components/Competitive'
@@ -22,9 +24,10 @@ export default function Home({ params }: Props) {
     <main className="min-h-screen">
       <Navbar />
       <Hero />
-      {/* Customer-first: what it does, proof it works, how much */}
+      <RiskReversal />
       <Solution />
       <Problem />
+      <SalonFeatures />
       <AIVision />
       <Traction />
       <Competitive />

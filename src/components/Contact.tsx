@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-[var(--ink-900)]">{t('addressLabel')}</h3>
-                  <p className="text-[var(--ink-700)]">71 University Place<br />New York, NY 10003</p>
+                  <p className="text-[var(--ink-700)]">16 Washington Place<br />New York, NY 10003</p>
                 </div>
               </div>
 
@@ -53,6 +53,18 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-[var(--ink-900)]">{t('emailLabel')}</h3>
                   <p className="text-[var(--ink-700)]">{t('emailValue')}</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-10 h-10 bg-[var(--surface-soft)] rounded-lg flex items-center justify-center text-[var(--accent-600)] flex-shrink-0">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8a9 9 0 100-18 9 9 0 000 18z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-[var(--ink-900)]">{t('channelsLabel')}</h3>
+                  <p className="text-[var(--ink-700)] text-sm leading-relaxed">{t('channelsLine')}</p>
                 </div>
               </div>
             </div>
