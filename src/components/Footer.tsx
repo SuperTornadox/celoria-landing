@@ -1,10 +1,9 @@
 'use client'
 
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
 
 export default function Footer() {
   const t = useTranslations('Footer')
-  const locale = useLocale()
 
   return (
     <footer className="bg-[#2D2D2D] text-[#E8D7C3] py-12 mt-8">
@@ -40,19 +39,15 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">{t('contactTitle')}</h4>
             <ul className="space-y-2">
-              <li>71 University Place</li>
+              <li>16 Washington Place</li>
               <li>New York, NY 10003</li>
               <li>eric@celoria.ai</li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-white/10 pt-8 text-center">
           <p>&copy; {t('copyright')}</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href={`/${locale}/privacy`} className="hover:text-white transition">{t('privacy')}</a>
-            <a href={`/${locale}/terms`} className="hover:text-white transition">{t('terms')}</a>
-          </div>
         </div>
       </div>
     </footer>
