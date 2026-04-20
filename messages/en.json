@@ -199,8 +199,6 @@
     "channelsLine": "Email · Phone · WhatsApp · WeChat · SMS — we reply in English, Español, 中文, Tiếng Việt, 한국어, Русский",
     "addressLabel": "Address",
     "address": "16 Washington Place\nNew York, NY 10003",
-    "companyLabel": "Company",
-    "companyValue": "Celoria Corp",
     "emailLabel": "Email",
     "emailValue": "eric@celoria.ai",
     "formTitle": "Book a Demo",
@@ -231,7 +229,7 @@
     "team": "Team",
     "contact": "Contact",
     "contactTitle": "Contact",
-    "copyright": "2026 Celoria Corp. All rights reserved.",
+    "copyright": "2026 Celoria. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   }
