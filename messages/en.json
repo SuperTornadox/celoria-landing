@@ -31,12 +31,12 @@
   },
   "RiskReversal": {
     "kicker": "Low-risk onboarding",
-    "item1Title": "Free 30-day pilot",
-    "item1Desc": "Start with one location. No charge until you're ready.",
+    "item1Title": "30-day pilot, no commitment",
+    "item1Desc": "Start with one location. Full pilot access during the research collaboration.",
     "item2Title": "Free data migration",
     "item2Desc": "We move your bookings, guests, and staff from Zenoti, Vagaro, Boulevard, Mindbody, Fresha, Square — at no cost.",
-    "item3Title": "Month-to-month",
-    "item3Desc": "No long-term contracts. Cancel anytime.",
+    "item3Title": "Zero lock-in",
+    "item3Desc": "Pilot has no paperwork and no binding period. Stop whenever you want.",
     "item4Title": "Your data is yours",
     "item4Desc": "Full export, encrypted at rest, backed up daily. Walk away with everything you put in."
   },
@@ -166,14 +166,14 @@
     "celoriaLegacy": "35 pilot locations co-building",
     "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — native UI, docs, and support",
     "celoriaAI": "5 AI assistants that work together — Insights · Marketing · SOPs · Reconciliation · Training",
-    "footnote": "Other platforms add features one by one. Celoria's AI was designed from day one to connect everything — scheduling, payments, marketing, and staff management all feed into smarter decisions."
+    "footnote": "Other platforms add features one by one. Celoria's AI was designed from day one to connect everything — scheduling, checkout, marketing, and staff management all feed into smarter decisions."
   },
   "Team": {
     "kicker": "Team",
-    "title": "Built by an Operator",
-    "subtitle": "Shipped AI at Meituan-scale, then solo-built an entire salon platform. I don't study this industry — I'm in it.",
+    "title": "Built with salon operators",
+    "subtitle": "Shipped AI at Meituan scale, then co-built an entire salon platform together with multi-location operators. A research collaboration, not a one-way pitch.",
     "member1Name": "Eric He",
-    "member1Role": "CEO / CTO",
+    "member1Role": "Builder & Graduate Researcher",
     "member1Bio": "MFA Design (NYU) + MS Computer Science (Georgia Tech). Ex-Meituan (AI at scale for service industries), Ex-Yonyou (enterprise AI Agent development). Solo-built the entire Celoria platform: 1,133 APIs, 4 frontends, AI integrations — designed through direct work with multi-location salon operators.",
     "member1Tag1": "Full-stack builder",
     "member1Tag2": "AI/services domain",
