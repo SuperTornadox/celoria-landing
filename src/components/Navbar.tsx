@@ -2,14 +2,26 @@
 
 import { useState } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+
+type AppLocale = typeof routing.locales[number]
+
+const LOCALE_LABELS: Record<AppLocale, { code: string; native: string }> = {
+  en: { code: 'EN', native: 'English' },
+  zh: { code: 'ZH', native: '中文' },
+  es: { code: 'ES', native: 'Español' },
+  vi: { code: 'VI', native: 'Tiếng Việt' },
+  ko: { code: 'KO', native: '한국어' },
+  ru: { code: 'RU', native: 'Русский' },
+}
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const t = useTranslations('Navbar')
-  const locale = useLocale()
+  const locale = useLocale() as AppLocale
   const pathname = usePathname()
+  const router = useRouter()
 
   const links = [
     { href: '#solution', label: t('solution') },
@@ -19,18 +31,23 @@ export default function Navbar() {
     { href: '#contact', label: t('contact') },
   ]
 
-  const otherLocale = locale === 'en' ? 'zh' : 'en'
-  const switchLabel = locale === 'en' ? 'ZH' : 'EN'
-
-  function getLocaleSwitchHref() {
-    // Remove the current locale prefix and replace with the other locale
+  function buildLocaleHref(targetLocale: AppLocale) {
     const segments = pathname.split('/')
     // segments[0] is '', segments[1] is the locale
-    if (routing.locales.includes(segments[1] as typeof routing.locales[number])) {
-      segments[1] = otherLocale
+    if (routing.locales.includes(segments[1] as AppLocale)) {
+      segments[1] = targetLocale
     }
     return segments.join('/')
   }
+
+  function handleLocaleChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    const next = e.target.value as AppLocale
+    if (next === locale) return
+    router.push(buildLocaleHref(next))
+  }
+
+  const localeSelectClassName =
+    'rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--ink-700)] border border-[var(--line)] bg-[var(--surface)] hover:bg-[var(--surface-soft)] transition cursor-pointer'
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[var(--line)] bg-[rgba(245,241,237,0.82)] backdrop-blur-md">
@@ -57,12 +74,18 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
-              href={getLocaleSwitchHref()}
-              className="rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--ink-700)] border border-[var(--line)] bg-[var(--surface)] hover:bg-[var(--surface-soft)] transition"
+            <select
+              aria-label="Select language"
+              value={locale}
+              onChange={handleLocaleChange}
+              className={localeSelectClassName}
             >
-              {switchLabel}
-            </a>
+              {routing.locales.map((loc) => (
+                <option key={loc} value={loc}>
+                  {LOCALE_LABELS[loc].code} · {LOCALE_LABELS[loc].native}
+                </option>
+              ))}
+            </select>
             <a
               href="https://calendly.com/xuchenhe1230/celoria-demo"
               target="_blank"
@@ -98,12 +121,18 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
-              href={getLocaleSwitchHref()}
-              className="block px-5 py-2 rounded-lg text-center font-medium text-[var(--ink-700)] border border-[var(--line)] bg-[var(--surface)] hover:bg-[var(--surface-soft)]"
+            <select
+              aria-label="Select language"
+              value={locale}
+              onChange={handleLocaleChange}
+              className="block w-full px-5 py-2 rounded-lg text-center font-medium text-[var(--ink-700)] border border-[var(--line)] bg-[var(--surface)] hover:bg-[var(--surface-soft)]"
             >
-              {switchLabel}
-            </a>
+              {routing.locales.map((loc) => (
+                <option key={loc} value={loc}>
+                  {LOCALE_LABELS[loc].code} · {LOCALE_LABELS[loc].native}
+                </option>
+              ))}
+            </select>
             <a
               href="https://calendly.com/xuchenhe1230/celoria-demo"
               target="_blank"
