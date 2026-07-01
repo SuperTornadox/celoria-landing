@@ -8,7 +8,7 @@ interface ScreenshotProps {
 export function Screenshot({ src, alt, caption }: ScreenshotProps) {
   return (
     <figure className="my-6">
-      <div className="relative rounded-lg overflow-hidden border border-gray-200 shadow-sm">
+      <div className="relative rounded-lg overflow-hidden border border-[var(--line)] shadow-sm">
         <img
           src={src}
           alt={alt}
@@ -17,7 +17,7 @@ export function Screenshot({ src, alt, caption }: ScreenshotProps) {
         />
       </div>
       {caption && (
-        <figcaption className="mt-2 text-sm text-gray-500 text-center">
+        <figcaption className="mt-2 text-sm text-[var(--ink-500)] text-center">
           {caption}
         </figcaption>
       )}

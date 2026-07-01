@@ -10,7 +10,7 @@
 - **品牌名称**: Celoria AI
 - **产品名称**: Celoria
 - **行业**: 美甲沙龙连锁管理
-- **地址**: 71 University Place, New York, NY 10003
+- **地址**: 16 Washington Place, New York, NY 10003
 
 ## 业务规模
 

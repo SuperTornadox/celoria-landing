@@ -56,7 +56,7 @@ export default function Team() {
         {/* Join Us CTA */}
         <div className="text-center mt-8">
           <a
-            href="mailto:eric@celoria.ai?subject=Joining Celoria"
+            href="mailto:contact@celoria.ai?subject=Joining Celoria"
             className="inline-flex items-center gap-2 rounded-full border border-[var(--accent-300)] bg-[rgba(215,180,122,0.06)] px-6 py-3 text-sm text-[var(--accent-600)] hover:bg-[rgba(215,180,122,0.12)] transition"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

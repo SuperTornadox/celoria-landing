@@ -20,19 +20,19 @@ function ChatMessage({ role, content, isStreaming }: ChatMessageProps) {
       <div
         className={`max-w-[85%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed ${
           isUser
-            ? 'bg-[#C9A96E] text-white rounded-br-md'
-            : 'bg-gray-100 text-gray-800 rounded-bl-md'
+            ? 'bg-[var(--accent-500)] text-white rounded-br-md'
+            : 'bg-[var(--surface-soft)] text-[var(--ink-900)] rounded-bl-md'
         }`}
       >
         {isUser ? (
           <div className="whitespace-pre-wrap">{content}</div>
         ) : (
-          <div className="chat-markdown prose prose-sm prose-gray max-w-none [&>*:first-child]:mt-0 [&>*:last-child]:mb-0 [&_p]:my-1.5 [&_ul]:my-1.5 [&_ol]:my-1.5 [&_li]:my-0.5 [&_h1]:text-base [&_h2]:text-sm [&_h3]:text-sm [&_h1]:font-semibold [&_h2]:font-semibold [&_h3]:font-medium [&_code]:bg-gray-200 [&_code]:px-1 [&_code]:rounded [&_code]:text-xs [&_strong]:font-semibold [&_table]:text-xs [&_th]:px-2 [&_th]:py-1 [&_td]:px-2 [&_td]:py-1">
+          <div className="chat-markdown prose prose-sm max-w-none [&>*:first-child]:mt-0 [&>*:last-child]:mb-0 [&_p]:my-1.5 [&_ul]:my-1.5 [&_ol]:my-1.5 [&_li]:my-0.5 [&_h1]:text-base [&_h2]:text-sm [&_h3]:text-sm [&_h1]:font-semibold [&_h2]:font-semibold [&_h3]:font-medium [&_code]:bg-[var(--bg)] [&_code]:px-1 [&_code]:rounded [&_code]:text-xs [&_strong]:font-semibold [&_table]:text-xs [&_th]:px-2 [&_th]:py-1 [&_td]:px-2 [&_td]:py-1">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
           </div>
         )}
         {isStreaming && (
-          <span className="inline-block w-1.5 h-4 ml-0.5 bg-gray-400 animate-pulse rounded-sm" />
+          <span className="inline-block w-1.5 h-4 ml-0.5 bg-[var(--ink-500)] animate-pulse rounded-sm" />
         )}
       </div>
     </div>
@@ -42,11 +42,11 @@ function ChatMessage({ role, content, isStreaming }: ChatMessageProps) {
 function TypingIndicator() {
   return (
     <div className="flex justify-start mb-3">
-      <div className="bg-gray-100 rounded-2xl rounded-bl-md px-5 py-3">
+      <div className="bg-[var(--surface-soft)] rounded-2xl rounded-bl-md px-5 py-3">
         <div className="flex items-center gap-1.5">
-          <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce [animation-delay:0ms]" />
-          <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce [animation-delay:150ms]" />
-          <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce [animation-delay:300ms]" />
+          <span className="w-2 h-2 bg-[var(--accent-300)] rounded-full animate-bounce [animation-delay:0ms]" />
+          <span className="w-2 h-2 bg-[var(--accent-300)] rounded-full animate-bounce [animation-delay:150ms]" />
+          <span className="w-2 h-2 bg-[var(--accent-300)] rounded-full animate-bounce [animation-delay:300ms]" />
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ export default function HelpChatbot({ apiBaseUrl = 'http://localhost:3000' }: He
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#C9A96E] text-white shadow-lg hover:bg-[#B8944D] transition-all hover:scale-105 flex items-center justify-center"
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[var(--accent-500)] text-white shadow-lg hover:bg-[var(--accent-600)] transition-all hover:scale-105 flex items-center justify-center"
           title="Celoria 助手"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -193,12 +193,15 @@ export default function HelpChatbot({ apiBaseUrl = 'http://localhost:3000' }: He
       )}
 
       {isOpen && (
-        <div className="fixed bottom-6 right-6 z-50 w-[400px] h-[520px] bg-white rounded-2xl shadow-2xl border border-gray-200 flex flex-col overflow-hidden">
-          <div className="flex items-center justify-between px-5 py-3.5 bg-[#C9A96E] text-white">
+        <div className="fixed bottom-6 right-6 z-50 w-[400px] h-[520px] bg-[var(--surface)] rounded-2xl shadow-2xl border border-[var(--line)] flex flex-col overflow-hidden">
+          <div className="flex items-center justify-between px-5 py-3.5 bg-[var(--accent-500)] text-white">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-sm">
-                &#10022;
-              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/brand/celoria-icon-rounded.png"
+                alt="Celoria"
+                className="w-8 h-8 rounded-lg"
+              />
               <div>
                 <div className="font-medium text-sm">Celoria 助手</div>
                 <div className="text-[11px] text-white/70">基于帮助文档回答</div>
@@ -231,7 +234,7 @@ export default function HelpChatbot({ apiBaseUrl = 'http://localhost:3000' }: He
             <div ref={messagesEndRef} />
           </div>
 
-          <div className="px-4 py-3 border-t border-gray-100">
+          <div className="px-4 py-3 border-t border-[var(--line)]">
             <div className="flex items-center gap-2">
               <input
                 ref={inputRef}
@@ -241,12 +244,12 @@ export default function HelpChatbot({ apiBaseUrl = 'http://localhost:3000' }: He
                 onKeyDown={(e) => e.key === 'Enter' && !e.shiftKey && handleSend()}
                 placeholder="输入你的问题..."
                 disabled={isLoading}
-                className="flex-1 px-4 py-2.5 text-sm bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#C9A96E]/30 focus:border-[#C9A96E] disabled:opacity-50"
+                className="flex-1 px-4 py-2.5 text-sm bg-[var(--bg)] border border-[var(--line)] rounded-xl focus:outline-none focus:ring-2 focus:ring-[var(--accent-500)]/30 focus:border-[var(--accent-500)] disabled:opacity-50 text-[var(--ink-900)]"
               />
               <button
                 onClick={handleSend}
                 disabled={isLoading || !input.trim()}
-                className="p-2.5 bg-[#C9A96E] text-white rounded-xl hover:bg-[#B8944D] disabled:opacity-30 transition-colors"
+                className="p-2.5 bg-[var(--accent-500)] text-white rounded-xl hover:bg-[var(--accent-600)] disabled:opacity-30 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path

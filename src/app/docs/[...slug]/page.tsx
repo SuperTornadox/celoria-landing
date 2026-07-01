@@ -120,9 +120,9 @@ export default async function DocPage({ params }: PageProps) {
         ) : (
           <div className="text-center py-12">
             <div className="text-6xl mb-4">📝</div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">{docInfo.title}</h1>
-            <p className="text-gray-500 mb-4">{docInfo.description}</p>
-            <p className="text-sm text-gray-400">文档内容即将上线，敬请期待...</p>
+            <h1 className="text-2xl font-bold text-[var(--ink-900)] mb-2">{docInfo.title}</h1>
+            <p className="text-[var(--ink-500)] mb-4">{docInfo.description}</p>
+            <p className="text-sm text-[var(--ink-500)]">文档内容即将上线，敬请期待...</p>
           </div>
         )}
       </article>

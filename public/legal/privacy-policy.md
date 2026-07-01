@@ -41,38 +41,12 @@ We use collected information to:
 
 - Provide, operate, and maintain the Service
 - Process appointments, payments, and business transactions
-- Send appointment reminders, confirmations, and notifications via SMS/email
+- Send appointment reminders, confirmations, and notifications via email
 - Generate business analytics, reports, and performance insights
 - Improve and personalize the Service
 - Communicate with you about updates, support, and promotional offers
 - Comply with legal obligations
 - Detect and prevent fraud or unauthorized access
-
----
-
-## 4. SMS/Text Messaging
-
-### 4.1 Types of Messages
-
-With your consent, we may send:
-
-- **Transactional Messages:** Appointment confirmations, reminders, status updates
-- **Review Solicitation Messages:** Post-service follow-ups requesting feedback (see Section 7.1)
-- **Marketing Messages:** Promotional offers and announcements (with opt-in consent)
-
-### 4.2 Review Solicitation
-
-Our automated review solicitation system may send a follow-up message after your salon visit to request your feedback on Google. These messages:
-
-- Are sent only to customers who have provided a phone number
-- Include a link to leave a review on Google Maps
-- **Do not offer any incentives** (discounts, coupons, or rewards) in exchange for reviews, in compliance with Google's Terms of Service
-- Are subject to frequency limits (maximum one solicitation per customer per 90 days)
-- Are not sent during quiet hours (9 PM - 8 AM local time) in compliance with TCPA regulations
-
-### 4.3 Opt-Out
-
-You may opt out of SMS messages at any time by replying STOP to any message. Standard message and data rates may apply.
 
 ---
 
@@ -86,7 +60,6 @@ Third-party companies that assist in providing the Service:
 
 | Provider | Purpose | Data Shared |
 |----------|---------|-------------|
-| Twilio / Telnyx | SMS and voice messaging | Phone numbers, message content |
 | AWS SES / Resend | Email delivery | Email addresses, message content |
 | Stripe | Payment processing | Transaction amounts, payment tokens |
 | CodePay | Point-of-sale payment processing | Transaction amounts |
@@ -190,7 +163,6 @@ We use Anthropic's Claude AI to generate content suggestions:
 | Account information | Duration of account + 30 days after deletion |
 | Appointment records | 7 years (tax/legal compliance) |
 | Customer contact information | Duration of business relationship + 90 days |
-| SMS message logs | 2 years |
 | Review solicitation records | 2 years |
 | Social media post data | 1 year after publication |
 | Competitor snapshot data | 1 year |
@@ -224,7 +196,7 @@ Depending on your jurisdiction, you may have the right to:
 - **Restrict Processing:** Request limitation of data processing
 - **Withdraw Consent:** Withdraw consent for data processing at any time
 
-To exercise these rights, contact us at privacy@celoria.ai or joey@celoria.ai.
+To exercise these rights, contact us at contact@celoria.ai.
 
 ---
 
@@ -238,9 +210,7 @@ The Service is not intended for use by individuals under 16 years of age. We do 
 
 For privacy questions, data requests, or concerns:
 
-**Email:** joey@celoria.ai
-**Phone:** +1 (347) 728-3880
-**Address:** Celoria, 71 University Pl, New York, NY 10003
+**Email:** contact@celoria.ai
 
 ---
 

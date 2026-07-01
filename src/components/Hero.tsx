@@ -6,7 +6,7 @@ export default function Hero() {
   const t = useTranslations('Hero')
 
   const glanceItems = [
-    { label: t('glanceLocations'), value: '35', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
+    { label: t('glanceLocations'), value: t('glanceLocationsValue'), icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
     { label: t('glanceDailyClose'), value: t('glanceDailyCloseValue'), icon: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z' },
     { label: t('glanceAI'), value: t('glanceAIValue'), icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
   ]

@@ -78,24 +78,13 @@ export default async function PrivacyPage({ params }: Props) {
             <h3 className="text-lg font-semibold mb-4">
               {locale === 'zh' ? '联系我们' : 'Contact Us'}
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="font-medium text-gray-900 mb-2">
                   {locale === 'zh' ? '客户支持' : 'Customer Support'}
                 </h4>
                 <p className="text-sm text-gray-600">
-                  joey@celoria.ai<br />
-                  +1 (347) 728-3880
-                </p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h4 className="font-medium text-gray-900 mb-2">
-                  {locale === 'zh' ? '公司地址' : 'Business Address'}
-                </h4>
-                <p className="text-sm text-gray-600">
-                  Celoria<br />
-                  71 University Pl<br />
-                  New York, NY 10003
+                  contact@celoria.ai
                 </p>
               </div>
             </div>
@@ -117,7 +106,7 @@ export default async function PrivacyPage({ params }: Props) {
             {locale === 'zh' ? '返回首页' : 'Back to Home'}
           </a>
           <span>|</span>
-          <a href="mailto:joey@celoria.ai" className="hover:text-blue-600 hover:underline mx-2">
+          <a href="mailto:contact@celoria.ai" className="hover:text-blue-600 hover:underline mx-2">
             {locale === 'zh' ? '联系我们' : 'Contact Us'}
           </a>
         </div>

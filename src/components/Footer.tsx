@@ -39,9 +39,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">{t('contactTitle')}</h4>
             <ul className="space-y-2">
-              <li>16 Washington Place</li>
-              <li>New York, NY 10003</li>
-              <li>eric@celoria.ai</li>
+              <li>contact@celoria.ai</li>
             </ul>
           </div>
         </div>

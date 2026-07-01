@@ -1,4 +1,4 @@
-# Terms of Service and SMS Consent Agreement
+# Terms of Service
 
 **Celoria Management System**
 **Effective Date:** January 28, 2026
@@ -19,73 +19,9 @@ These Terms constitute a legally binding agreement between you ("User", "you", o
 Celoria provides a comprehensive business management system including but not limited to:
 - Online appointment booking and management
 - Customer relationship management (CRM)
-- SMS/text message notifications and reminders
 - Payment processing
 - Employee scheduling
 - Business analytics and reporting
-
----
-
-## 3. SMS/Text Messaging Consent
-
-### 3.1 Express Written Consent
-
-**By providing your mobile phone number and opting into SMS notifications, you expressly consent to receive automated text messages from Celoria to the mobile number you provided.**
-
-These messages may include but are not limited to:
-- Appointment confirmations and reminders
-- Promotional offers and marketing messages
-- Service updates and notifications
-- Customer satisfaction surveys
-- Special events and announcements
-
-### 3.2 Message Frequency
-
-- **Transactional Messages:** You may receive appointment-related messages each time you book or modify an appointment
-- **Marketing Messages:** Frequency may vary, typically 2-8 messages per month
-- **Frequency Disclaimer:** Message frequency varies based on your activity and promotional campaigns
-
-### 3.3 Standard Charges
-
-**Message and data rates may apply.** Charges are determined by your mobile carrier and are your sole responsibility. We do not charge for SMS messages, but your carrier's standard messaging rates will apply.
-
-### 3.4 Supported Carriers
-
-Our SMS service is available on major U.S. carriers including but not limited to:
-- AT&T, T-Mobile, Verizon, Sprint, Boost, Cricket, MetroPCS, U.S. Cellular, Virgin Mobile, and others
-- Coverage may vary by carrier
-
-### 3.5 Opt-Out Rights
-
-**You can opt out of SMS messages at any time** by using any of the following methods:
-
-1. **Text STOP:** Reply "STOP", "CANCEL", "END", "QUIT", or "UNSUBSCRIBE" to any message
-2. **Account Settings:** Log into your account at celoria.ai and manage your communication preferences
-3. **Contact Support:** Call us or email joey@celoria.ai
-
-**After opting out:**
-- You will receive one final confirmation message
-- You will no longer receive promotional SMS messages
-- You may still receive critical transactional messages (e.g., appointment cancellations) unless you fully close your account
-
-### 3.6 Help and Support
-
-For SMS support, text "HELP" to any message or contact us at:
-- Email: joey@celoria.ai
-- Phone: +1 (347) 728-3880
-- Help response: Reply HELP for help, STOP to cancel
-
-### 3.7 No Consent Required for Service
-
-**Consent to receive SMS messages is NOT a condition of purchase or use of our services.** You may decline to receive SMS messages and still use all other features of the Service.
-
-### 3.8 TCPA Compliance
-
-This SMS program complies with the Telephone Consumer Protection Act (TCPA). We will:
-- Only send messages to numbers that have expressly opted in
-- Provide clear opt-out mechanisms in every message
-- Honor opt-out requests within 10 days
-- Maintain records of consent
 
 ---
 
@@ -134,7 +70,7 @@ We implement industry-standard security measures to protect your personal inform
 ### 5.4 Third-Party Sharing
 
 We do not sell your personal information. We may share data with:
-- Service providers (payment processors, SMS gateways)
+- Service providers (payment processors)
 - Legal authorities when required by law
 - Business partners with your explicit consent
 
@@ -240,7 +176,7 @@ You agree to indemnify and hold harmless Celoria, its officers, directors, emplo
 
 We reserve the right to modify these Terms at any time. We will:
 - Post updated Terms on our website
-- Notify you via email or SMS (if opted in)
+- Notify you via email
 - Update the "Last Updated" date
 
 **Your continued use of the Service after changes constitutes acceptance of the new Terms.**
@@ -327,37 +263,12 @@ These Terms are written in English. Any translations are provided for convenienc
 For questions about these Terms or the Service, contact us:
 
 **Celoria**
-Email: joey@celoria.ai
+Email: contact@celoria.ai
 Website: https://celoria.ai
-Phone: +1 (347) 728-3880
-Address: 71 University Pl, New York, NY 10003
-
-**For SMS Support:**
-Text HELP to any message or email: joey@celoria.ai
-Phone: +1 (347) 728-3880
 
 ---
 
-## 17. SMS Short Code Compliance
-
-**Program Name:** Celoria Business Notifications
-**Short Code/Phone Number:** +1 (347) 728-3880
-**Message Frequency:** Varies (2-8 messages/month for marketing; varies for transactional)
-**Cost:** Message and data rates may apply
-**Opt-Out:** Text STOP to cancel
-**Help:** Text HELP for assistance
-**Privacy:** View our Privacy Policy at celoria.ai/privacy
-**Terms:** View full Terms at celoria.ai/terms
-
-**Sample Opt-In Message:**
-"Welcome to Celoria! You'll receive appointment reminders and occasional promotions. Reply STOP to cancel, HELP for help. Msg&data rates may apply. celoria.ai/terms"
-
-**Sample Opt-Out Confirmation:**
-"You have been unsubscribed from Celoria SMS messages. You will no longer receive promotional texts. Reply START to resubscribe. Need help? Email joey@celoria.ai"
-
----
-
-**By using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service, including the SMS Consent Agreement.**
+**By using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.**
 
 ---
 

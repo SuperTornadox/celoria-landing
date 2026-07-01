@@ -77,6 +77,20 @@ export const docsConfig: DocCategory[] = [
           { title: '储值管理', slug: 'balance', order: 3 },
         ],
       },
+      {
+        title: '系统设置', slug: 'settings', description: '系统配置和业务规则', order: 7,
+        children: [
+          { title: '通用设置', slug: 'general', order: 0 },
+          { title: '预约设置', slug: 'appointments', order: 1 },
+          { title: '支付方式', slug: 'payment-methods', order: 2 },
+          { title: '终端管理', slug: 'terminals', order: 3 },
+          { title: 'Guest App 定制', slug: 'guest-app', order: 4 },
+          { title: '薪酬设置', slug: 'payroll', order: 5 },
+          { title: '考勤设置', slug: 'time-clock', order: 6 },
+          { title: '消息设置', slug: 'messaging', order: 7 },
+          { title: '审计日志', slug: 'audit', order: 8 },
+        ],
+      },
     ],
   },
   {

@@ -15,8 +15,8 @@ export function Feedback() {
 
   if (submitted) {
     return (
-      <div className="mt-12 pt-6 border-t border-gray-200">
-        <p className="text-center text-gray-600">
+      <div className="mt-12 pt-6 border-t border-[var(--line)]">
+        <p className="text-center text-[var(--ink-500)]">
           感谢您的反馈！
         </p>
       </div>
@@ -24,15 +24,15 @@ export function Feedback() {
   }
 
   return (
-    <div className="mt-12 pt-6 border-t border-gray-200">
-      <p className="text-center text-gray-600 mb-4">这篇文章有帮助吗？</p>
+    <div className="mt-12 pt-6 border-t border-[var(--line)]">
+      <p className="text-center text-[var(--ink-500)] mb-4">这篇文章有帮助吗？</p>
       <div className="flex items-center justify-center gap-4">
         <button
           onClick={() => handleFeedback('helpful')}
           className={`flex items-center gap-2 px-4 py-2 rounded-lg border transition-colors ${
             feedback === 'helpful'
-              ? 'border-green-500 bg-green-50 text-green-700'
-              : 'border-gray-200 hover:border-green-500 hover:bg-green-50'
+              ? 'border-emerald-500 bg-emerald-50 text-emerald-700'
+              : 'border-[var(--line)] hover:border-emerald-400 hover:bg-emerald-50/50'
           }`}
         >
           <span>👍</span>
@@ -42,8 +42,8 @@ export function Feedback() {
           onClick={() => handleFeedback('not-helpful')}
           className={`flex items-center gap-2 px-4 py-2 rounded-lg border transition-colors ${
             feedback === 'not-helpful'
-              ? 'border-orange-500 bg-orange-50 text-orange-700'
-              : 'border-gray-200 hover:border-orange-500 hover:bg-orange-50'
+              ? 'border-amber-500 bg-amber-50 text-amber-700'
+              : 'border-[var(--line)] hover:border-amber-400 hover:bg-amber-50/50'
           }`}
         >
           <span>👎</span>

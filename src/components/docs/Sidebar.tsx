@@ -48,11 +48,11 @@ export function Sidebar() {
   }
 
   return (
-    <nav className="w-[280px] flex-shrink-0 sticky top-16 h-[calc(100vh-4rem)] border-r border-gray-200 bg-white overflow-y-auto">
+    <nav className="w-[280px] flex-shrink-0 sticky top-16 h-[calc(100vh-4rem)] border-r border-[var(--line)] bg-[var(--surface)] overflow-y-auto">
       <div className="p-4">
         <Link
           href="/docs"
-          className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-6"
+          className="flex items-center gap-2 text-lg font-semibold text-[var(--ink-900)] mb-6"
         >
           <span>📖</span>
           <span>帮助中心</span>
@@ -63,7 +63,7 @@ export function Sidebar() {
             <div key={category.slug}>
               <button
                 onClick={() => toggleCategory(category.slug)}
-                className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md"
+                className="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-[var(--ink-700)] hover:bg-primary-50 rounded-md"
               >
                 <span className="flex items-center gap-2">
                   <span>{category.icon}</span>
@@ -101,7 +101,7 @@ export function Sidebar() {
                             className={`w-full flex items-center justify-between px-3 py-2 text-sm rounded-md transition-colors ${
                               hasActiveChild
                                 ? 'text-primary-700 font-medium'
-                                : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                                : 'text-[var(--ink-700)] hover:bg-primary-50 hover:text-[var(--ink-900)]'
                             }`}
                           >
                             <span>{item.title}</span>
@@ -126,7 +126,7 @@ export function Sidebar() {
                                     className={`block px-3 py-1.5 text-sm rounded-md transition-colors ${
                                       isActive(childHref)
                                         ? 'bg-primary-100 text-primary-700 font-medium'
-                                        : 'text-gray-500 hover:bg-gray-50 hover:text-gray-900'
+                                        : 'text-[var(--ink-500)] hover:bg-primary-50 hover:text-[var(--ink-900)]'
                                     }`}
                                   >
                                     {child.title}
@@ -147,7 +147,7 @@ export function Sidebar() {
                         className={`block px-3 py-2 text-sm rounded-md transition-colors ${
                           isActive(href)
                             ? 'bg-primary-100 text-primary-700 font-medium'
-                            : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                            : 'text-[var(--ink-700)] hover:bg-primary-50 hover:text-[var(--ink-900)]'
                         }`}
                       >
                         {item.title}
