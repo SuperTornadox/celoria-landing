@@ -33,7 +33,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://calendly.com/xuchenhe1230/celoria-demo"
+                href="https://calendly.com/andrew-gao/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg px-8 py-4 text-lg font-semibold text-white bg-[var(--accent-500)] hover:bg-[var(--accent-600)] transition shadow-[0_12px_32px_-12px_rgba(31,27,22,0.45)]"

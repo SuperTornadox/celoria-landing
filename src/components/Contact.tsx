@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-const CALENDLY_URL = 'https://calendly.com/xuchenhe1230/celoria-demo';
+const CALENDLY_URL = 'https://calendly.com/andrew-gao/30min';
 
 export default function Contact() {
   const t = useTranslations('Contact');
