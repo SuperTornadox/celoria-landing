@@ -27,17 +27,6 @@
     "verticalsLabel": "모든 살롱 버티컬을 위해 설계",
     "verticals": "헤어 · 네일 · 래쉬 · 브로우 · 왁싱 · 스파 · 바버 · MedSpa"
   },
-  "RiskReversal": {
-    "kicker": "부담 없는 도입",
-    "item1Title": "30일 파일럿, 약정 없음",
-    "item1Desc": "한 매장으로 시작하세요. 연구 협력 기간 동안 파일럿 전 기능을 사용할 수 있습니다.",
-    "item2Title": "데이터 이전 무료",
-    "item2Desc": "예약·고객·직원 데이터를 Zenoti, Vagaro, Boulevard, Mindbody, Fresha, Square에서 가져올 수 있습니다 — 파일럿 기간 동안 무료입니다.",
-    "item3Title": "잠금 없음",
-    "item3Desc": "파일럿은 서류도, 의무 기간도 없습니다. 언제든 그만둘 수 있습니다.",
-    "item4Title": "데이터는 항상 고객의 것입니다",
-    "item4Desc": "전체 내보내기 지원, 저장 시 암호화, 매일 백업. 떠날 때 입력한 모든 데이터를 가져가실 수 있습니다."
-  },
   "SalonFeatures": {
     "kicker": "살롱에 필요한 모든 것",
     "title": "어떤 버티컬, 어떤 규모든 매장 전체를 운영합니다.",
@@ -141,8 +130,8 @@
     "freshaAI": "없음",
     "celoriaName": "Celoria",
     "celoriaVerticals": "전 버티컬",
-    "celoriaLegacy": "다매장 운영자와 공동 구축",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI·문서·지원 모두 원어민 수준",
+    "celoriaLegacy": "다매장 운영을 위해 설계",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI·문서 모두 원어민 수준",
     "celoriaAI": "협업하는 AI 어시스턴트 5종 — Insights · Marketing · SOP · 정산 · 교육",
     "footnote": "다른 플랫폼은 기능을 하나씩 추가합니다. Celoria의 AI는 첫날부터 스케줄·결제·마케팅·인력 관리를 모두 연결해 더 똑똑한 의사결정을 내리도록 설계되었습니다."
   },

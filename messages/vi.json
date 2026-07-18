@@ -27,17 +27,6 @@
     "verticalsLabel": "Phù hợp mọi loại salon",
     "verticals": "Tóc · Nail · Mi · Lông mày · Wax · Spa · Cắt tóc nam · MedSpa"
   },
-  "RiskReversal": {
-    "kicker": "Khởi đầu rủi ro thấp",
-    "item1Title": "Thí điểm 30 ngày, không ràng buộc",
-    "item1Desc": "Bắt đầu với một tiệm. Truy cập đầy đủ thí điểm trong suốt giai đoạn hợp tác nghiên cứu.",
-    "item2Title": "Chuyển dữ liệu miễn phí",
-    "item2Desc": "Đặt lịch, khách hàng và nhân viên của bạn có thể được nhập từ Zenoti, Vagaro, Boulevard, Mindbody, Fresha hoặc Square — miễn phí trong thời gian thử nghiệm.",
-    "item3Title": "Không khóa hợp đồng",
-    "item3Desc": "Thí điểm không giấy tờ, không thời hạn ràng buộc. Dừng bất cứ lúc nào.",
-    "item4Title": "Dữ liệu là của bạn",
-    "item4Desc": "Xuất đầy đủ, mã hóa khi lưu, sao lưu hàng ngày. Rời đi mang theo tất cả những gì bạn đưa vào."
-  },
   "SalonFeatures": {
     "kicker": "Mọi thứ một salon cần",
     "title": "Vận hành toàn bộ tiệm — bất kỳ ngành dọc, bất kỳ quy mô.",
@@ -141,8 +130,8 @@
     "freshaAI": "Không",
     "celoriaName": "Celoria",
     "celoriaVerticals": "Mọi ngành dọc",
-    "celoriaLegacy": "Cùng xây với các chủ chuỗi nhiều tiệm",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — giao diện, tài liệu và hỗ trợ bản địa",
+    "celoriaLegacy": "Xây cho vận hành nhiều tiệm",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — giao diện và tài liệu bản địa",
     "celoriaAI": "5 trợ lý AI làm việc cùng nhau — Insights · Marketing · SOP · Đối soát · Đào tạo",
     "footnote": "Nền tảng khác bổ sung tính năng từng cái một. AI của Celoria được thiết kế ngay từ ngày đầu để kết nối mọi thứ — lịch hẹn, thanh toán, marketing và quản lý nhân viên đều cùng tạo nên các quyết định thông minh hơn."
   },

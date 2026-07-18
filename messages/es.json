@@ -27,17 +27,6 @@
     "verticalsLabel": "Diseñado para cada vertical de salón",
     "verticals": "Cabello · Uñas · Pestañas · Cejas · Depilación · Spa · Barbería · MedSpa"
   },
-  "RiskReversal": {
-    "kicker": "Onboarding de bajo riesgo",
-    "item1Title": "Piloto de 30 días, sin compromiso",
-    "item1Desc": "Empieza con una sola ubicación. Acceso completo al piloto durante la colaboración de investigación.",
-    "item2Title": "Migración de datos gratuita",
-    "item2Desc": "Tus reservas, clientes y personal se pueden importar desde Zenoti, Vagaro, Boulevard, Mindbody, Fresha o Square — gratis durante el piloto.",
-    "item3Title": "Cero permanencia",
-    "item3Desc": "El piloto no tiene contrato ni periodo de obligación. Detén cuando quieras.",
-    "item4Title": "Tus datos son tuyos",
-    "item4Desc": "Exportación completa, cifrado en reposo, respaldo diario. Llévate todo lo que pusiste."
-  },
   "SalonFeatures": {
     "kicker": "Todo lo que un salón necesita",
     "title": "Opera todo el negocio — cualquier vertical, cualquier tamaño.",
@@ -141,8 +130,8 @@
     "freshaAI": "Ninguna",
     "celoriaName": "Celoria",
     "celoriaVerticals": "Todas las verticales",
-    "celoriaLegacy": "Co-construido con operadores multi-tienda",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI, documentación y soporte nativos",
+    "celoriaLegacy": "Diseñado para operaciones multi-tienda",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI y documentación nativos",
     "celoriaAI": "5 asistentes IA que trabajan en conjunto — Insights · Marketing · SOPs · Conciliación · Capacitación",
     "footnote": "Otras plataformas agregan funciones una por una. La IA de Celoria fue diseñada desde el día uno para conectarlo todo — agenda, cobro, marketing y gestión de personal alimentan decisiones más inteligentes."
   },

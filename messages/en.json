@@ -27,17 +27,6 @@
     "verticalsLabel": "Built for every salon vertical",
     "verticals": "Hair · Nail · Lash · Brow · Wax · Spa · Barber · MedSpa"
   },
-  "RiskReversal": {
-    "kicker": "Low-risk onboarding",
-    "item1Title": "30-day pilot, no commitment",
-    "item1Desc": "Start with one location. Full pilot access during the research collaboration.",
-    "item2Title": "Free data migration",
-    "item2Desc": "Your bookings, guests, and staff can be imported from Zenoti, Vagaro, Boulevard, Mindbody, Fresha, or Square — free during the pilot.",
-    "item3Title": "Zero lock-in",
-    "item3Desc": "Pilot has no paperwork and no binding period. Stop whenever you want.",
-    "item4Title": "Your data is yours",
-    "item4Desc": "Full export, encrypted at rest, backed up daily. Walk away with everything you put in."
-  },
   "SalonFeatures": {
     "kicker": "Everything a salon needs",
     "title": "Runs the whole operation — any vertical, any size.",
@@ -141,8 +130,8 @@
     "freshaAI": "None",
     "celoriaName": "Celoria",
     "celoriaVerticals": "All verticals",
-    "celoriaLegacy": "Co-built with multi-store operators",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — native UI, docs, and support",
+    "celoriaLegacy": "Built for multi-store operations",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — native UI and docs",
     "celoriaAI": "5 AI assistants that work together — Insights · Marketing · SOPs · Reconciliation · Training",
     "footnote": "Other platforms add features one by one. Celoria's AI was designed from day one to connect everything — scheduling, checkout, marketing, and staff management all feed into smarter decisions."
   },
