@@ -26,7 +26,6 @@ export default function Navbar() {
   const links = [
     { href: '#solution', label: t('solution') },
     { href: '#ai-vision', label: t('aiVision') },
-    { href: '#traction', label: t('traction') },
     { href: '#competitive', label: t('whyCeloria') },
     { href: '#contact', label: t('contact') },
   ]

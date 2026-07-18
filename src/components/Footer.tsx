@@ -30,7 +30,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="#solution" className="hover:text-white transition">{t('solution')}</a></li>
               <li><a href="#ai-vision" className="hover:text-white transition">{t('aiVision')}</a></li>
-              <li><a href="#traction" className="hover:text-white transition">{t('traction')}</a></li>
               <li><a href="#competitive" className="hover:text-white transition">{t('whyCeloria')}</a></li>
               <li><a href="#contact" className="hover:text-white transition">{t('contact')}</a></li>
             </ul>

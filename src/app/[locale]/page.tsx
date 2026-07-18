@@ -7,7 +7,6 @@ import Problem from '@/components/Problem'
 import Solution from '@/components/Solution'
 import SalonFeatures from '@/components/SalonFeatures'
 import AIVision from '@/components/AIVision'
-import Traction from '@/components/Traction'
 import Competitive from '@/components/Competitive'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -29,7 +28,6 @@ export default function Home({ params }: Props) {
       <Problem />
       <SalonFeatures />
       <AIVision />
-      <Traction />
       <Competitive />
       <Contact />
       <Footer />
