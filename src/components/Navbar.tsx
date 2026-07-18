@@ -85,14 +85,6 @@ export default function Navbar() {
                 </option>
               ))}
             </select>
-            <a
-              href="https://calendly.com/andrew-gao/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg px-5 py-2 font-semibold text-white bg-[var(--accent-500)] hover:bg-[var(--accent-600)] transition"
-            >
-              {t('bookDemo')}
-            </a>
           </div>
 
           <button
@@ -132,14 +124,6 @@ export default function Navbar() {
                 </option>
               ))}
             </select>
-            <a
-              href="https://calendly.com/andrew-gao/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block px-5 py-2 rounded-lg text-center font-semibold text-white bg-[var(--accent-500)] hover:bg-[var(--accent-600)]"
-            >
-              {t('bookDemo')}
-            </a>
           </div>
         )}
       </div>
