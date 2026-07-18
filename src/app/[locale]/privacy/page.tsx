@@ -16,7 +16,7 @@ import './print.css';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Celoria',
-  description: 'Celoria Privacy Policy - Learn how we collect, use, and protect your personal information, including Google and Meta platform integrations.',
+  description: 'Celoria Privacy Policy — how information is handled when you use the Service.',
   robots: 'index, follow',
 };
 
