@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Celoria - 沙龙连锁 AI 管理系统",
-    "description": "AI 接管对账、报表、营销这些杂事——让你的店长专注做好服务。"
+    "description": "AI 可以接管对账、报表、营销这些杂事——让你的店长专注做好服务。"
   },
   "Navbar": {
     "solution": "解决方案",
@@ -14,7 +14,7 @@
     "titleLine1": "你的店长",
     "titleLine2": "应该在服务客人，",
     "titleHighlight": "不是在做表格。",
-    "description": "AI 接管对账、报表和营销——让你的店长专注服务，让最好的门店标准复制到每一家店。",
+    "description": "AI 可以接管对账、报表和营销——让你的店长专注服务，让最好的门店标准复制到每一家店。",
     "ctaProduct": "了解工作原理",
     "glanceTitle": "平台概览",
     "glanceLocations": "支持业态",
@@ -28,8 +28,8 @@
   },
   "SalonFeatures": {
     "kicker": "沙龙需要的全部功能",
-    "title": "一套系统跑完整个店面——任何业态、任何规模。",
-    "subtitle": "每个沙龙老板问过的功能，开箱即用，彼此打通。",
+    "title": "为运营整个店面而设计——任何业态、任何规模。",
+    "subtitle": "每个沙龙老板问过的功能，内置并设计为彼此打通。",
     "f1Title": "预约与排班",
     "f1Desc": "在线预约插件、候补列表、多员工资源、周期性预约。",
     "f2Title": "Walk-in 与排队",
@@ -43,7 +43,7 @@
     "f6Title": "多店合并报表",
     "f6Desc": "所有门店一屏尽览。门店对比、一键全店下发。",
     "f7Title": "营销自动化",
-    "f7Desc": "流失唤回、生日优惠、评论邀请——基于真实预约和到店数据触发。",
+    "f7Desc": "流失唤回、生日优惠、评论邀请——基于预约和到店数据触发。",
     "f8Title": "库存与零售",
     "f8Desc": "产品、后台用量、低库存告警——适配美甲油、洗发水、护肤品、医美耗材。"
   },
@@ -80,7 +80,7 @@
   },
   "AIVision": {
     "kicker": "AI 能帮你做什么",
-    "title": "5 个 AI 助手，7×24 小时帮你管所有店",
+    "title": "5 个 AI 助手，帮你管所有店",
     "subtitle": "每一个都替代一项你要么花大价钱请人做、要么半夜自己干的工作。",
     "orchestrator": "跨店总览",
     "orchestratorDesc": "所有门店一目了然 · 对比业绩 · 一键下发策略到所有店",
@@ -95,7 +95,7 @@
     "agent5Name": "人才管理",
     "agent5Desc": "自动生成培训材料 · 追踪绩效 · 优化排班",
     "callout1Label": "对账 · SOP",
-    "callout1Text": "基于规则——每天稳定可靠地执行",
+    "callout1Text": "基于规则——稳定可靠地执行",
     "callout2Label": "营销 · 洞察 · 培训",
     "callout2Text": "AI 驱动——处理那些以前得靠店长判断的事情"
   },
@@ -132,7 +132,7 @@
     "celoriaLegacy": "为多店运营打造",
     "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский——UI 母语原生",
     "celoriaAI": "5 个 AI 助手协同工作——洞察 · 营销 · SOP · 对账 · 培训",
-    "footnote": "别的平台一个个加功能。Celoria 的 AI 从第一天就把排班、结账、营销、员工管理全部打通——数据越多，决策越准。"
+    "footnote": "别的平台一个个加功能。Celoria 的 AI 从一开始就把排班、结账、营销、员工管理全部打通——数据越多，决策越准。"
   },
   "Contact": {
     "kicker": "联系我们",

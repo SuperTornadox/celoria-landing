@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Celoria - Gestión con IA para Cadenas de Salones",
-    "description": "La IA se encarga del trabajo administrativo —conciliación, reportes, marketing— para que tus gerentes se concentren en lo que importa: un excelente servicio."
+    "description": "La IA puede encargarse del trabajo administrativo —conciliación, reportes, marketing— para que tus gerentes se concentren en lo que importa: un excelente servicio."
   },
   "Navbar": {
     "solution": "Solución",
@@ -14,7 +14,7 @@
     "titleLine1": "Tu Gerente",
     "titleLine2": "Debería Atender Clientes, ",
     "titleHighlight": "No Hacer Hojas de Cálculo.",
-    "description": "La IA se encarga de la conciliación, los reportes y el marketing — para que tus gerentes de tienda se concentren en el servicio y los estándares de tus mejores tiendas se repliquen en todas partes.",
+    "description": "La IA puede encargarse de la conciliación, los reportes y el marketing — para que tus gerentes de tienda se concentren en el servicio y los estándares de tus mejores tiendas se repliquen en todas partes.",
     "ctaProduct": "Ver Cómo Funciona",
     "glanceTitle": "La Plataforma de un Vistazo",
     "glanceLocations": "Verticales",
@@ -28,8 +28,8 @@
   },
   "SalonFeatures": {
     "kicker": "Todo lo que un salón necesita",
-    "title": "Opera todo el negocio — cualquier vertical, cualquier tamaño.",
-    "subtitle": "Las funciones que todo dueño de salón pide, integradas y funcionando juntas desde el primer día.",
+    "title": "Diseñado para operar todo el negocio — cualquier vertical, cualquier tamaño.",
+    "subtitle": "Las funciones que todo dueño de salón pide, integradas y diseñadas para funcionar juntas.",
     "f1Title": "Reservas y agenda",
     "f1Desc": "Widget de reservas online, lista de espera, recursos multi-staff, citas recurrentes.",
     "f2Title": "Walk-in y cola",
@@ -43,7 +43,7 @@
     "f6Title": "Reportes multi-ubicación",
     "f6Desc": "Cada tienda en una sola pantalla. Compara desempeño y aplica cambios en todas a la vez.",
     "f7Title": "Automatización de marketing",
-    "f7Desc": "Campañas de recuperación, ofertas de cumpleaños, solicitudes de reseñas — activadas con datos reales de reservas y visitas.",
+    "f7Desc": "Campañas de recuperación, ofertas de cumpleaños, solicitudes de reseñas — activadas con datos de reservas y visitas.",
     "f8Title": "Inventario y retail",
     "f8Desc": "Productos, uso de back-bar, alertas de bajo stock — funciona para esmaltes, shampoo, skincare o insumos de MedSpa."
   },
@@ -80,7 +80,7 @@
   },
   "AIVision": {
     "kicker": "Lo que la IA hace por ti",
-    "title": "5 asistentes IA que trabajan 24/7 en todas tus tiendas",
+    "title": "5 asistentes IA para todas tus tiendas",
     "subtitle": "Cada uno reemplaza un trabajo que estás pagando de más, o haciendo tú mismo a medianoche.",
     "orchestrator": "Vista General Multi-Tienda",
     "orchestratorDesc": "Ve todas las tiendas de un vistazo · Compara desempeño · Aplica cambios en todas a la vez",
@@ -95,7 +95,7 @@
     "agent5Name": "Talento",
     "agent5Desc": "Genera materiales de capacitación · Rastrea desempeño · Optimiza horarios",
     "callout1Label": "Conciliación · SOPs",
-    "callout1Text": "Basado en reglas — consistente y confiable, todos los días",
+    "callout1Text": "Basado en reglas — consistente y confiable",
     "callout2Label": "Marketing · Insights · Capacitación",
     "callout2Text": "Impulsado por IA — maneja los juicios que antes requerían un gerente general"
   },
@@ -132,7 +132,7 @@
     "celoriaLegacy": "Diseñado para operaciones multi-tienda",
     "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI nativa",
     "celoriaAI": "5 asistentes IA que trabajan en conjunto — Insights · Marketing · SOPs · Conciliación · Capacitación",
-    "footnote": "Otras plataformas agregan funciones una por una. La IA de Celoria fue diseñada desde el día uno para conectarlo todo — agenda, cobro, marketing y gestión de personal alimentan decisiones más inteligentes."
+    "footnote": "Otras plataformas agregan funciones una por una. La IA de Celoria fue diseñada desde el inicio para conectarlo todo — agenda, cobro, marketing y gestión de personal alimentan decisiones más inteligentes."
   },
   "Contact": {
     "kicker": "Contacto",

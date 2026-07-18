@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Celoria - Quản Lý Chuỗi Salon Bằng AI",
-    "description": "AI lo các việc hành chính — đối soát, báo cáo, marketing — để quản lý của bạn tập trung vào điều quan trọng: dịch vụ xuất sắc."
+    "description": "AI có thể lo các việc hành chính — đối soát, báo cáo, marketing — để quản lý của bạn tập trung vào điều quan trọng: dịch vụ xuất sắc."
   },
   "Navbar": {
     "solution": "Giải pháp",
@@ -14,7 +14,7 @@
     "titleLine1": "Quản lý của bạn",
     "titleLine2": "Nên phục vụ khách, ",
     "titleHighlight": "Không ngồi làm bảng tính.",
-    "description": "AI lo việc đối soát, báo cáo và marketing — để quản lý cửa hàng tập trung vào dịch vụ, và tiêu chuẩn của những tiệm tốt nhất được nhân rộng khắp nơi.",
+    "description": "AI có thể lo việc đối soát, báo cáo và marketing — để quản lý cửa hàng tập trung vào dịch vụ, và tiêu chuẩn của những tiệm tốt nhất được nhân rộng khắp nơi.",
     "ctaProduct": "Xem cách hoạt động",
     "glanceTitle": "Tổng quan nền tảng",
     "glanceLocations": "Ngành dọc",
@@ -28,8 +28,8 @@
   },
   "SalonFeatures": {
     "kicker": "Mọi thứ một salon cần",
-    "title": "Vận hành toàn bộ tiệm — bất kỳ ngành dọc, bất kỳ quy mô.",
-    "subtitle": "Những tính năng mà chủ salon nào cũng cần, tích hợp sẵn và phối hợp ăn khớp ngay từ ngày đầu.",
+    "title": "Được xây để vận hành toàn bộ tiệm — bất kỳ ngành dọc, bất kỳ quy mô.",
+    "subtitle": "Những tính năng mà chủ salon nào cũng cần, tích hợp sẵn và được thiết kế để phối hợp ăn khớp.",
     "f1Title": "Đặt lịch & sắp xếp",
     "f1Desc": "Widget đặt lịch online, danh sách chờ, tài nguyên đa nhân viên, lịch hẹn định kỳ.",
     "f2Title": "Khách vãng lai & hàng đợi",
@@ -43,7 +43,7 @@
     "f6Title": "Báo cáo đa tiệm",
     "f6Desc": "Mọi tiệm trên một màn hình. So sánh hiệu suất, đẩy thay đổi đồng loạt khắp các tiệm.",
     "f7Title": "Tự động hóa marketing",
-    "f7Desc": "Chiến dịch kéo khách quay lại, ưu đãi sinh nhật, mời đánh giá — kích hoạt từ dữ liệu đặt lịch và lượt khách thật.",
+    "f7Desc": "Chiến dịch kéo khách quay lại, ưu đãi sinh nhật, mời đánh giá — kích hoạt từ dữ liệu đặt lịch và lượt khách.",
     "f8Title": "Tồn kho & bán lẻ",
     "f8Desc": "Sản phẩm, vật tư back-bar, cảnh báo tồn thấp — dùng được cho sơn nail, dầu gội, skincare hay vật tư MedSpa."
   },
@@ -80,7 +80,7 @@
   },
   "AIVision": {
     "kicker": "AI làm gì cho bạn",
-    "title": "5 trợ lý AI làm việc 24/7 cho mọi tiệm của bạn",
+    "title": "5 trợ lý AI cho mọi tiệm của bạn",
     "subtitle": "Mỗi trợ lý thay thế một công việc mà bạn đang trả lương quá cao, hoặc đang tự làm lúc nửa đêm.",
     "orchestrator": "Tổng quan đa tiệm",
     "orchestratorDesc": "Nhìn tất cả tiệm trong nháy mắt · So sánh hiệu suất · Đẩy thay đổi đồng loạt",
@@ -95,7 +95,7 @@
     "agent5Name": "Nhân tài",
     "agent5Desc": "Tự sinh tài liệu đào tạo · Theo dõi hiệu suất · Tối ưu lịch làm việc",
     "callout1Label": "Đối soát · SOP",
-    "callout1Text": "Dựa trên quy tắc — ổn định và đáng tin cậy, mỗi ngày",
+    "callout1Text": "Dựa trên quy tắc — ổn định và đáng tin cậy",
     "callout2Label": "Marketing · Insights · Đào tạo",
     "callout2Text": "AI dẫn dắt — xử lý các quyết định trước đây cần đến một GM"
   },
@@ -132,7 +132,7 @@
     "celoriaLegacy": "Xây cho vận hành nhiều tiệm",
     "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — giao diện bản địa",
     "celoriaAI": "5 trợ lý AI làm việc cùng nhau — Insights · Marketing · SOP · Đối soát · Đào tạo",
-    "footnote": "Nền tảng khác bổ sung tính năng từng cái một. AI của Celoria được thiết kế ngay từ ngày đầu để kết nối mọi thứ — lịch hẹn, thanh toán, marketing và quản lý nhân viên đều cùng tạo nên các quyết định thông minh hơn."
+    "footnote": "Nền tảng khác bổ sung tính năng từng cái một. AI của Celoria được thiết kế ngay từ đầu để kết nối mọi thứ — lịch hẹn, thanh toán, marketing và quản lý nhân viên đều cùng tạo nên các quyết định thông minh hơn."
   },
   "Contact": {
     "kicker": "Liên hệ",

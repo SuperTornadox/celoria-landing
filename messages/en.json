@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Celoria - AI-Powered Management for Salon Chains",
-    "description": "AI takes over the busywork — reconciliation, reports, marketing — so your managers can focus on what matters: great service."
+    "description": "AI can take over the busywork — reconciliation, reports, marketing — so your managers can focus on what matters: great service."
   },
   "Navbar": {
     "solution": "Solution",
@@ -14,7 +14,7 @@
     "titleLine1": "Your Manager",
     "titleLine2": "Should Be Serving Clients, ",
     "titleHighlight": "Not Doing Spreadsheets.",
-    "description": "AI takes over reconciliation, reports, and marketing — so your store managers can focus on service and your best stores' standards replicate everywhere.",
+    "description": "AI can take over reconciliation, reports, and marketing — so your store managers can focus on service and your best stores' standards replicate everywhere.",
     "ctaProduct": "See How It Works",
     "glanceTitle": "Platform at a Glance",
     "glanceLocations": "Verticals",
@@ -28,8 +28,8 @@
   },
   "SalonFeatures": {
     "kicker": "Everything a salon needs",
-    "title": "Runs the whole operation — any vertical, any size.",
-    "subtitle": "The features every salon owner asks for, built in and working together from day one.",
+    "title": "Built to run the whole operation — any vertical, any size.",
+    "subtitle": "The features every salon owner asks for, built in and designed to work together.",
     "f1Title": "Booking & scheduling",
     "f1Desc": "Online booking widget, waitlist, multi-staff resources, recurring appointments.",
     "f2Title": "Walk-in & queue",
@@ -43,7 +43,7 @@
     "f6Title": "Multi-location reporting",
     "f6Desc": "Every store on one screen. Compare performance, push changes everywhere at once.",
     "f7Title": "Marketing automation",
-    "f7Desc": "Win-back campaigns, birthday offers, review requests — triggered by real booking and visit data.",
+    "f7Desc": "Win-back campaigns, birthday offers, review requests — triggered by booking and visit data.",
     "f8Title": "Inventory & retail",
     "f8Desc": "Products, back-bar usage, low-stock alerts — works for polish, shampoo, skincare, or MedSpa supplies."
   },
@@ -80,7 +80,7 @@
   },
   "AIVision": {
     "kicker": "What AI Does For You",
-    "title": "5 AI assistants that work 24/7 across all your stores",
+    "title": "5 AI assistants for all your stores",
     "subtitle": "Each one replaces a job you're either paying too much for, or doing yourself at midnight.",
     "orchestrator": "Cross-Store Overview",
     "orchestratorDesc": "See all stores at a glance · Compare performance · Push changes everywhere at once",
@@ -95,7 +95,7 @@
     "agent5Name": "Talent",
     "agent5Desc": "Generates training materials · Tracks performance · Optimizes schedules",
     "callout1Label": "Reconciliation · SOPs",
-    "callout1Text": "Rules-based — consistent and reliable, every single day",
+    "callout1Text": "Rules-based — consistent and reliable",
     "callout2Label": "Marketing · Insights · Training",
     "callout2Text": "AI-driven — handles the judgment calls that used to require a GM"
   },
@@ -132,7 +132,7 @@
     "celoriaLegacy": "Built for multi-store operations",
     "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — native UI",
     "celoriaAI": "5 AI assistants that work together — Insights · Marketing · SOPs · Reconciliation · Training",
-    "footnote": "Other platforms add features one by one. Celoria's AI was designed from day one to connect everything — scheduling, checkout, marketing, and staff management all feed into smarter decisions."
+    "footnote": "Other platforms add features one by one. Celoria's AI was designed from the start to connect everything — scheduling, checkout, marketing, and staff management all feed into smarter decisions."
   },
   "Contact": {
     "kicker": "Contact",
