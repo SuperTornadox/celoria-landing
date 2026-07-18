@@ -12,7 +12,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { PrintButton } from '@/components/Legal/PrintButton';
 import { setRequestLocale } from 'next-intl/server';
-import '../terms/print.css';
+import './print.css';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Celoria',
@@ -98,10 +98,6 @@ export default async function PrivacyPage({ params }: Props) {
 
         {/* Quick Links */}
         <div className="mt-6 text-center text-sm text-gray-600">
-          <a href={`/${locale}/terms`} className="hover:text-blue-600 hover:underline mx-2">
-            {locale === 'zh' ? '服务条款' : 'Terms of Service'}
-          </a>
-          <span>|</span>
           <a href={`/${locale}/`} className="hover:text-blue-600 hover:underline mx-2">
             {locale === 'zh' ? '返回首页' : 'Back to Home'}
           </a>
