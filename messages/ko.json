@@ -7,7 +7,6 @@
     "solution": "솔루션",
     "aiVision": "AI가 해주는 일",
     "whyCeloria": "왜 Celoria인가",
-    "team": "팀",
     "contact": "문의"
   },
   "Hero": {
@@ -131,7 +130,7 @@
     "celoriaName": "Celoria",
     "celoriaVerticals": "전 버티컬",
     "celoriaLegacy": "다매장 운영을 위해 설계",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI·문서 모두 원어민 수준",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI 원어민 수준",
     "celoriaAI": "협업하는 AI 어시스턴트 5종 — Insights · Marketing · SOP · 정산 · 교육",
     "footnote": "다른 플랫폼은 기능을 하나씩 추가합니다. Celoria의 AI는 첫날부터 스케줄·결제·마케팅·인력 관리를 모두 연결해 더 똑똑한 의사결정을 내리도록 설계되었습니다."
   },
@@ -139,38 +138,11 @@
     "kicker": "문의",
     "title": "문의하기",
     "subtitle": "AI가 어떻게 잡무를 가져가고 팀을 해방시키는지 보여드립니다.",
-    "channelsLabel": "원하시는 방법으로 연락하세요",
-    "channelsLine": "Email · 전화 · WhatsApp · WeChat · SMS — English, Español, 中文, Tiếng Việt, 한국어, Русский 지원",
     "emailLabel": "이메일",
-    "emailValue": "contact@celoria.ai",
-    "nameLabel": "이름",
-    "namePlaceholder": "이름을 입력하세요",
-    "nameRequired": "이름을 입력해 주세요",
-    "phoneLabel": "전화번호",
-    "phonePlaceholder": "전화번호를 입력하세요",
-    "phoneInvalid": "올바른 전화번호를 입력해 주세요",
-    "emailFieldLabel": "이메일",
-    "emailPlaceholder": "이메일 주소를 입력하세요",
-    "emailInvalid": "올바른 이메일을 입력해 주세요",
-    "messageLabel": "메시지",
-    "messagePlaceholder": "운영하시는 살롱 체인에 대해 알려주세요",
-    "submitError": "오류가 발생했습니다. 다시 시도해 주세요.",
-    "submitting": "전송 중...",
-    "submitButton": "요청 보내기",
-    "successTitle": "감사합니다!",
-    "successMessage": "요청이 접수되었습니다. 영업일 기준 1일 이내로 연락드리겠습니다."
+    "emailValue": "contact@celoria.ai"
   },
   "Footer": {
     "tagline": "살롱 체인을 위한 AI 관리 시스템. 서류는 줄이고, 서비스에 집중하세요.",
-    "quickLinks": "바로가기",
-    "solution": "솔루션",
-    "aiVision": "에이전트 아키텍처",
-    "whyCeloria": "왜 Celoria인가",
-    "team": "팀",
-    "contact": "문의",
-    "contactTitle": "연락처",
-    "copyright": "2026 Celoria. All rights reserved.",
-    "privacy": "개인정보 처리방침",
-    "terms": "서비스 약관"
+    "copyright": "2026 Celoria. All rights reserved."
   }
 }

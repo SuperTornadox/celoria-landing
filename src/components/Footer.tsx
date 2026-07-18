@@ -1,9 +1,10 @@
 'use client'
 
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 
 export default function Footer() {
   const t = useTranslations('Footer')
+  const locale = useLocale()
 
   return (
     <footer className="bg-[#2D2D2D] text-[#E8D7C3] py-12 mt-8">
@@ -27,8 +28,12 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="border-t border-white/10 pt-8 text-center">
-          <p>&copy; {t('copyright')}</p>
+        <div className="border-t border-white/10 pt-8 text-center space-x-3">
+          <span>&copy; {t('copyright')}</span>
+          <span className="opacity-50">·</span>
+          <a href={`/${locale}/privacy`} className="hover:text-white transition">
+            {locale === 'zh' ? '隐私政策' : 'Privacy Policy'}
+          </a>
         </div>
       </div>
     </footer>

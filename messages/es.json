@@ -7,7 +7,6 @@
     "solution": "Solución",
     "aiVision": "Lo que la IA hace por ti",
     "whyCeloria": "Por qué Celoria",
-    "team": "Equipo",
     "contact": "Contacto"
   },
   "Hero": {
@@ -131,7 +130,7 @@
     "celoriaName": "Celoria",
     "celoriaVerticals": "Todas las verticales",
     "celoriaLegacy": "Diseñado para operaciones multi-tienda",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI y documentación nativos",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — UI nativa",
     "celoriaAI": "5 asistentes IA que trabajan en conjunto — Insights · Marketing · SOPs · Conciliación · Capacitación",
     "footnote": "Otras plataformas agregan funciones una por una. La IA de Celoria fue diseñada desde el día uno para conectarlo todo — agenda, cobro, marketing y gestión de personal alimentan decisiones más inteligentes."
   },
@@ -139,38 +138,11 @@
     "kicker": "Contacto",
     "title": "Contáctanos",
     "subtitle": "Descubre cómo la IA puede encargarse del trabajo administrativo y liberar a tu equipo.",
-    "channelsLabel": "Contáctanos como prefieras",
-    "channelsLine": "Email · Teléfono · WhatsApp · WeChat · SMS — disponible en English, Español, 中文, Tiếng Việt, 한국어, Русский",
     "emailLabel": "Email",
-    "emailValue": "contact@celoria.ai",
-    "nameLabel": "Nombre",
-    "namePlaceholder": "Ingresa tu nombre",
-    "nameRequired": "El nombre es obligatorio",
-    "phoneLabel": "Teléfono",
-    "phonePlaceholder": "Ingresa tu número de teléfono",
-    "phoneInvalid": "Por favor ingresa un número de teléfono válido",
-    "emailFieldLabel": "Email",
-    "emailPlaceholder": "Ingresa tu dirección de correo",
-    "emailInvalid": "Por favor ingresa un email válido",
-    "messageLabel": "Mensaje",
-    "messagePlaceholder": "Cuéntanos sobre tu cadena de salones",
-    "submitError": "Algo salió mal. Por favor intenta de nuevo.",
-    "submitting": "Enviando...",
-    "submitButton": "Enviar Solicitud",
-    "successTitle": "¡Gracias!",
-    "successMessage": "Hemos recibido tu solicitud y te contactaremos dentro de 1 día hábil."
+    "emailValue": "contact@celoria.ai"
   },
   "Footer": {
     "tagline": "Gestión con IA para cadenas de salones. Menos papeleo, más servicio.",
-    "quickLinks": "Enlaces Rápidos",
-    "solution": "Solución",
-    "aiVision": "Arquitectura de Agentes",
-    "whyCeloria": "Por qué Celoria",
-    "team": "Equipo",
-    "contact": "Contacto",
-    "contactTitle": "Contacto",
-    "copyright": "2026 Celoria. Todos los derechos reservados.",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio"
+    "copyright": "2026 Celoria. Todos los derechos reservados."
   }
 }

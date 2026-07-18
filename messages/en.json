@@ -7,7 +7,6 @@
     "solution": "Solution",
     "aiVision": "What AI Does For You",
     "whyCeloria": "Why Celoria",
-    "team": "Team",
     "contact": "Contact"
   },
   "Hero": {
@@ -131,7 +130,7 @@
     "celoriaName": "Celoria",
     "celoriaVerticals": "All verticals",
     "celoriaLegacy": "Built for multi-store operations",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — native UI and docs",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — native UI",
     "celoriaAI": "5 AI assistants that work together — Insights · Marketing · SOPs · Reconciliation · Training",
     "footnote": "Other platforms add features one by one. Celoria's AI was designed from day one to connect everything — scheduling, checkout, marketing, and staff management all feed into smarter decisions."
   },
@@ -139,38 +138,11 @@
     "kicker": "Contact",
     "title": "Contact Us",
     "subtitle": "See how AI can take over the busywork and free up your team.",
-    "channelsLabel": "Reach us your way",
-    "channelsLine": "Email · Phone · WhatsApp · WeChat · SMS — available in English, Español, 中文, Tiếng Việt, 한국어, Русский",
     "emailLabel": "Email",
-    "emailValue": "contact@celoria.ai",
-    "nameLabel": "Name",
-    "namePlaceholder": "Enter your name",
-    "nameRequired": "Name is required",
-    "phoneLabel": "Phone",
-    "phonePlaceholder": "Enter your phone number",
-    "phoneInvalid": "Please enter a valid phone number",
-    "emailFieldLabel": "Email",
-    "emailPlaceholder": "Enter your email address",
-    "emailInvalid": "Please enter a valid email",
-    "messageLabel": "Message",
-    "messagePlaceholder": "Tell us about your salon chain",
-    "submitError": "Something went wrong. Please try again.",
-    "submitting": "Submitting...",
-    "submitButton": "Submit Request",
-    "successTitle": "Thank You!",
-    "successMessage": "We've received your request and will be in touch within 1 business day."
+    "emailValue": "contact@celoria.ai"
   },
   "Footer": {
     "tagline": "AI-powered management for salon chains. Less paperwork, more service.",
-    "quickLinks": "Quick Links",
-    "solution": "Solution",
-    "aiVision": "Agent Architecture",
-    "whyCeloria": "Why Celoria",
-    "team": "Team",
-    "contact": "Contact",
-    "contactTitle": "Contact",
-    "copyright": "2026 Celoria. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "copyright": "2026 Celoria. All rights reserved."
   }
 }

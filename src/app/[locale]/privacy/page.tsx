@@ -81,7 +81,7 @@ export default async function PrivacyPage({ params }: Props) {
             <div className="grid grid-cols-1 gap-4">
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="font-medium text-gray-900 mb-2">
-                  {locale === 'zh' ? '客户支持' : 'Customer Support'}
+                  {locale === 'zh' ? '隐私咨询' : 'Privacy Inquiries'}
                 </h4>
                 <p className="text-sm text-gray-600">
                   contact@celoria.ai

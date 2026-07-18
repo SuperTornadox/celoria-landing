@@ -7,7 +7,6 @@
     "solution": "解决方案",
     "aiVision": "AI 能帮你做什么",
     "whyCeloria": "为什么选我们",
-    "team": "团队",
     "contact": "联系我们"
   },
   "Hero": {
@@ -131,7 +130,7 @@
     "celoriaName": "Celoria",
     "celoriaVerticals": "全业态",
     "celoriaLegacy": "为多店运营打造",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский——UI、文档全部母语原生",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский——UI 母语原生",
     "celoriaAI": "5 个 AI 助手协同工作——洞察 · 营销 · SOP · 对账 · 培训",
     "footnote": "别的平台一个个加功能。Celoria 的 AI 从第一天就把排班、结账、营销、员工管理全部打通——数据越多，决策越准。"
   },
@@ -139,38 +138,11 @@
     "kicker": "联系我们",
     "title": "联系我们",
     "subtitle": "看看 AI 怎么接管杂事、解放你的团队。",
-    "channelsLabel": "用你最习惯的方式联系我们",
-    "channelsLine": "Email · 电话 · WhatsApp · 微信 · 短信——支持 English、Español、中文、Tiếng Việt、한국어、Русский",
     "emailLabel": "邮箱",
-    "emailValue": "contact@celoria.ai",
-    "nameLabel": "姓名",
-    "namePlaceholder": "请输入您的姓名",
-    "nameRequired": "请填写姓名",
-    "phoneLabel": "电话",
-    "phonePlaceholder": "请输入您的电话号码",
-    "phoneInvalid": "请输入有效的电话号码",
-    "emailFieldLabel": "邮箱",
-    "emailPlaceholder": "请输入您的邮箱地址",
-    "emailInvalid": "请输入有效的邮箱地址",
-    "messageLabel": "留言",
-    "messagePlaceholder": "介绍一下您的连锁门店",
-    "submitError": "提交失败，请稍后重试。",
-    "submitting": "提交中...",
-    "submitButton": "提交请求",
-    "successTitle": "感谢您！",
-    "successMessage": "我们已收到您的请求，将在 1 个工作日内与您联系。"
+    "emailValue": "contact@celoria.ai"
   },
   "Footer": {
     "tagline": "沙龙连锁 AI 管理系统。少做杂事，多做服务。",
-    "quickLinks": "快速链接",
-    "solution": "解决方案",
-    "aiVision": "Agent 架构",
-    "whyCeloria": "为什么是我们",
-    "team": "团队",
-    "contact": "联系我们",
-    "contactTitle": "联系方式",
-    "copyright": "2026 Celoria. 保留所有权利。",
-    "privacy": "隐私政策",
-    "terms": "服务条款"
+    "copyright": "2026 Celoria. 保留所有权利。"
   }
 }

@@ -7,7 +7,6 @@
     "solution": "Giải pháp",
     "aiVision": "AI làm gì cho bạn",
     "whyCeloria": "Vì sao chọn Celoria",
-    "team": "Đội ngũ",
     "contact": "Liên hệ"
   },
   "Hero": {
@@ -131,7 +130,7 @@
     "celoriaName": "Celoria",
     "celoriaVerticals": "Mọi ngành dọc",
     "celoriaLegacy": "Xây cho vận hành nhiều tiệm",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — giao diện và tài liệu bản địa",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — giao diện bản địa",
     "celoriaAI": "5 trợ lý AI làm việc cùng nhau — Insights · Marketing · SOP · Đối soát · Đào tạo",
     "footnote": "Nền tảng khác bổ sung tính năng từng cái một. AI của Celoria được thiết kế ngay từ ngày đầu để kết nối mọi thứ — lịch hẹn, thanh toán, marketing và quản lý nhân viên đều cùng tạo nên các quyết định thông minh hơn."
   },
@@ -139,38 +138,11 @@
     "kicker": "Liên hệ",
     "title": "Liên hệ với chúng tôi",
     "subtitle": "Xem AI có thể tiếp quản việc hành chính và giải phóng đội ngũ của bạn như thế nào.",
-    "channelsLabel": "Liên hệ theo cách bạn thích",
-    "channelsLine": "Email · Điện thoại · WhatsApp · WeChat · SMS — hỗ trợ English, Español, 中文, Tiếng Việt, 한국어, Русский",
     "emailLabel": "Email",
-    "emailValue": "contact@celoria.ai",
-    "nameLabel": "Họ tên",
-    "namePlaceholder": "Nhập họ tên của bạn",
-    "nameRequired": "Vui lòng nhập họ tên",
-    "phoneLabel": "Điện thoại",
-    "phonePlaceholder": "Nhập số điện thoại",
-    "phoneInvalid": "Vui lòng nhập số điện thoại hợp lệ",
-    "emailFieldLabel": "Email",
-    "emailPlaceholder": "Nhập địa chỉ email",
-    "emailInvalid": "Vui lòng nhập email hợp lệ",
-    "messageLabel": "Lời nhắn",
-    "messagePlaceholder": "Cho chúng tôi biết về chuỗi salon của bạn",
-    "submitError": "Có lỗi xảy ra. Vui lòng thử lại.",
-    "submitting": "Đang gửi...",
-    "submitButton": "Gửi yêu cầu",
-    "successTitle": "Cảm ơn bạn!",
-    "successMessage": "Chúng tôi đã nhận yêu cầu của bạn và sẽ liên hệ trong vòng 1 ngày làm việc."
+    "emailValue": "contact@celoria.ai"
   },
   "Footer": {
     "tagline": "Quản lý chuỗi salon bằng AI. Ít giấy tờ hơn, nhiều dịch vụ hơn.",
-    "quickLinks": "Liên kết nhanh",
-    "solution": "Giải pháp",
-    "aiVision": "Kiến trúc Agent",
-    "whyCeloria": "Vì sao chọn Celoria",
-    "team": "Đội ngũ",
-    "contact": "Liên hệ",
-    "contactTitle": "Liên hệ",
-    "copyright": "2026 Celoria. Bảo lưu mọi quyền.",
-    "privacy": "Chính sách bảo mật",
-    "terms": "Điều khoản dịch vụ"
+    "copyright": "2026 Celoria. Bảo lưu mọi quyền."
   }
 }

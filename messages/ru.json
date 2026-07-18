@@ -7,7 +7,6 @@
     "solution": "Решение",
     "aiVision": "Что ИИ делает для вас",
     "whyCeloria": "Почему Celoria",
-    "team": "Команда",
     "contact": "Контакты"
   },
   "Hero": {
@@ -131,7 +130,7 @@
     "celoriaName": "Celoria",
     "celoriaVerticals": "Все сегменты",
     "celoriaLegacy": "Создан для управления сетью салонов",
-    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — интерфейс и документация на родном языке",
+    "celoriaMultilingual": "English · Español · 中文 · Tiếng Việt · 한국어 · Русский — интерфейс на родном языке",
     "celoriaAI": "5 ИИ-ассистентов, работающих вместе — Insights · Marketing · Стандарты · Сверка · Обучение",
     "footnote": "Другие платформы добавляют функции по одной. ИИ Celoria с первого дня спроектирован так, чтобы связывать всё — расписание, оплату, маркетинг и управление персоналом — в более умные решения."
   },
@@ -139,38 +138,11 @@
     "kicker": "Контакты",
     "title": "Свяжитесь с нами",
     "subtitle": "Посмотрите, как ИИ снимает с команды рутину и освобождает её.",
-    "channelsLabel": "Свяжитесь с нами удобным способом",
-    "channelsLine": "Email · Телефон · WhatsApp · WeChat · SMS — доступно на English, Español, 中文, Tiếng Việt, 한국어, Русский",
     "emailLabel": "Email",
-    "emailValue": "contact@celoria.ai",
-    "nameLabel": "Имя",
-    "namePlaceholder": "Введите ваше имя",
-    "nameRequired": "Укажите имя",
-    "phoneLabel": "Телефон",
-    "phonePlaceholder": "Введите номер телефона",
-    "phoneInvalid": "Пожалуйста, введите корректный номер телефона",
-    "emailFieldLabel": "Email",
-    "emailPlaceholder": "Введите ваш email",
-    "emailInvalid": "Пожалуйста, введите корректный email",
-    "messageLabel": "Сообщение",
-    "messagePlaceholder": "Расскажите о вашей сети салонов",
-    "submitError": "Что-то пошло не так. Пожалуйста, попробуйте ещё раз.",
-    "submitting": "Отправка...",
-    "submitButton": "Отправить заявку",
-    "successTitle": "Спасибо!",
-    "successMessage": "Мы получили вашу заявку и свяжемся с вами в течение 1 рабочего дня."
+    "emailValue": "contact@celoria.ai"
   },
   "Footer": {
     "tagline": "Управление сетями салонов на основе ИИ. Меньше бумажной работы, больше сервиса.",
-    "quickLinks": "Быстрые ссылки",
-    "solution": "Решение",
-    "aiVision": "Архитектура агентов",
-    "whyCeloria": "Почему Celoria",
-    "team": "Команда",
-    "contact": "Контакты",
-    "contactTitle": "Контакты",
-    "copyright": "2026 Celoria. Все права защищены.",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования"
+    "copyright": "2026 Celoria. Все права защищены."
   }
 }
